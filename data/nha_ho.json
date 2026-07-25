@@ -1,0 +1,32 @@
+{
+  "id": "nha_ho",
+  "title": "Nhà Hồ",
+  "subtitle": "Hồ Quý Ly • Thành Đá Kiên Cố",
+  "period": "1400 - 1407",
+  "capital": "Tây Đô (Thanh Hóa)",
+  "description": "Hồ Quý Ly tiến hành những cải cách táo bạo: phát hành tiền giấy Thông Bảo đầu tiên, dời đô về Thành Nhà Hồ - di sản kiến trúc đá độc nhất vô nhị ở Đông Nam Á.",
+  "quote": "Tôi không sợ quân giặc mạnh, chỉ sợ lòng dân không theo.",
+  "quoteAuthor": "Tướng quân Hồ Nguyên Trừng",
+  "themeColor": "#8B4513",
+  "bgGradient": "linear-gradient(135deg, #241407 0%, #0a0501 100%)",
+  "bgImage": "assets/images/nha_ho_bg.svg",
+  "keyEvents": [
+    { "year": "1397", "title": "Xây dựng Thành Nhà Hồ", "desc": "Công trình thành đá đồ sộ hoàn thành kỷ lục chỉ trong vòng 3 tháng." },
+    { "year": "1400", "title": "Phát hành Tiền Giấy Thông Bảo", "desc": "Cải cách tài chính tiền tệ đột phá đầu tiên trong lịch sử." }
+  ],
+  "gallery": [
+    {
+      "id": "nh_01",
+      "title": "Cổng Vòm Thành Nhà Hồ",
+      "category": "Architecture",
+      "type": "Di sản Thế giới UNESCO",
+      "year": "1397",
+      "location": "Vĩnh Lộc, Thanh Hóa",
+      "character": "Hồ Quý Ly",
+      "significance": "Kỹ thuật ghép đá khối nén độc đáo bậc nhất không dùng vữa.",
+      "description": "Cổng phía Nam Thành Nhà Hồ được ghép bằng những phiến đá xanh nặng hàng chục tấn trần vòm kiên cố.",
+      "image": "assets/images/thanh_nha_ho.svg",
+      "source": "UNESCO Vietnam"
+    }
+  ]
+}

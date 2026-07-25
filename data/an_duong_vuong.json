@@ -1,0 +1,46 @@
+{
+  "id": "an_duong_vuong",
+  "title": "Thục Phân - An Dương Vương",
+  "subtitle": "Nhà Nước Âu Lạc • Kỳ Tích Cổ Loa",
+  "period": "257 - 179 TCN",
+  "capital": "Cổ Loa (Đông Anh, Hà Nội)",
+  "description": "An Dương Vương Thục Phàn hợp nhất Nam Cương và Văn Lang thành nhà nước Âu Lạc. Xây dựng tòa thành xoáy ốc Cổ Loa kiên cố cùng nỏ thần Liên Châu đánh bại hàng vạn quân Triệu Đà.",
+  "quote": "Thành Cổ Loa chín vòng xoắn ốc - Nỏ thần Kim Quy một phát trúng nghìn quân.",
+  "quoteAuthor": "Sử ký Đại Việt",
+  "themeColor": "#CD7F32",
+  "bgGradient": "linear-gradient(135deg, #1c1109 0%, #0a0603 100%)",
+  "bgImage": "assets/images/an_duong_vuong_bg.svg",
+  "keyEvents": [
+    { "year": "257 TCN", "title": "Thành lập nước Âu Lạc", "desc": "Thục Phàn xưng An Dương Vương, đóng đô tại Cổ Loa." },
+    { "year": "208 TCN", "title": "Xây dựng Thành Cổ Loa", "desc": "Công trình kiến trúc quân sự độc đáo bậc nhất Đông Nam Á thời cổ đại." },
+    { "year": "179 TCN", "title": "Mưu đồ Trọng Thủy - Mỵ Châu", "desc": "Âu Lạc rơi vào tay Triệu Đà do sự chủ quan và mắc mưu gián điệp." }
+  ],
+  "gallery": [
+    {
+      "id": "adv_01",
+      "title": "Sơ Đồ Thành Cổ Loa 9 Vòng",
+      "category": "Map",
+      "type": "Kiến trúc / Quân sự",
+      "year": "257 TCN",
+      "location": "Đông Anh, Hà Nội",
+      "character": "An Dương Vương & Cao Lỗ",
+      "significance": "Tòa thành quân sự độc đáo với 3 vòng thành đất kiên cố bao quanh hào nước sâu.",
+      "description": "Thành Cổ Loa được thiết kế theo hình xoáy ốc, lợi dụng địa hình sông suối tự nhiên để làm hào chắn thủ vững chắc.",
+      "image": "assets/images/co_loa_map.svg",
+      "source": "Bảo tàng Hà Nội"
+    },
+    {
+      "id": "adv_02",
+      "title": "Nỏ Liên Châu (Nỏ Thần Kim Quy)",
+      "category": "Artifact",
+      "type": "Vũ khí cổ đại",
+      "year": "Thế kỷ III TCN",
+      "location": "Cổ Loa",
+      "character": "Tướng quân Cao Lỗ",
+      "significance": "Vũ khí quân sự phát ra cùng lúc hàng chục mũi tên đồng uy lực khiên quân thù bạt vía.",
+      "description": "Nỏ thần do Cao Lỗ sáng tạo dựa trên lẫy nỏ bằng đồng có thể bắn cùng lúc nhiều mũi tên đồng 3 cạnh.",
+      "image": "assets/images/no_than.svg",
+      "source": "Viện Chế tác Vũ khí Cổ"
+    }
+  ]
+}

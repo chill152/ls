@@ -1,0 +1,32 @@
+{
+  "id": "nha_dinh",
+  "title": "Nhà Đinh",
+  "subtitle": "Đinh Tiên Hoàng • Quốc Hiệu Đại Cồ Việt",
+  "period": "968 - 980",
+  "capital": "Hoa Lư (Ninh Bình)",
+  "description": "Đinh Bộ Lĩnh với tài thao lược đã dẹp loạn 12 sứ quân, thống nhất đất nước, xưng Hoàng đế (Đinh Tiên Hoàng), đặt quốc hiệu Đại Cồ Việt và đúc đồng tiền Thái Bình Hưng Bảo.",
+  "quote": "Bảo vật Hoa Lư - Hoàng đế đầu tiên xưng xước Nam bang.",
+  "quoteAuthor": "Sử ký Đại Việt",
+  "themeColor": "#DAA520",
+  "bgGradient": "linear-gradient(135deg, #291e03 0%, #0a0700 100%)",
+  "bgImage": "assets/images/nha_dinh_bg.svg",
+  "keyEvents": [
+    { "year": "967", "title": "Thống nhất 12 Sứ Quân", "desc": "Đinh Bộ Lĩnh mài giũa tài năng từ cờ lau tập trận, thu phục toàn bộ các sứ quân." },
+    { "year": "968", "title": "Lên ngôi Hoàng Đế", "desc": "Đặt quốc hiệu Đại Cồ Việt, dựng kinh đô Hoa Lư núi non hiểm trở." }
+  ],
+  "gallery": [
+    {
+      "id": "nd_01",
+      "title": "Đinh Bộ Lĩnh Tập Trận Cờ Lau",
+      "category": "Portrait",
+      "type": "Thời niên thiếu",
+      "year": "Thế kỷ X",
+      "location": "Gia Viễn, Ninh Bình",
+      "character": "Đinh Bộ Lĩnh",
+      "significance": "Tài năng lãnh đạo xuất chúng ngay từ tuổi thơ.",
+      "description": "Cậu bé Đinh Bộ Lĩnh lấy bông cờ lau làm cờ trận, cùng bạn chăn trâu giả làm quân sĩ.",
+      "image": "assets/images/co_lau.svg",
+      "source": "Bảo tàng Cố đô Hoa Lư"
+    }
+  ]
+}

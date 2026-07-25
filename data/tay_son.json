@@ -1,0 +1,32 @@
+{
+  "id": "tay_son",
+  "title": "Triều Tây Sơn",
+  "subtitle": "Quang Trung Nguyễn Huệ • Đại Phá Quân Thanh",
+  "period": "1778 - 1802",
+  "capital": "Quy Nhơn / Phú Xuân (Huế)",
+  "description": "Anh hùng áo vải Quang Trung Nguyễn Huệ đánh tan 5 vạn quân Xiêm tại Rạch Gầm - Xoài Mút, và thần tốc tiến quân ra Bắc đại phá 29 vạn quân Thanh mùa xuân năm Kỷ Dậu 1789.",
+  "quote": "Đánh cho lịch sử biết rằng nước Nam ta là có chủ!",
+  "quoteAuthor": "Hoàng đế Quang Trung (1789)",
+  "themeColor": "#DC143C",
+  "bgGradient": "linear-gradient(135deg, #33050b 0%, #0d0103 100%)",
+  "bgImage": "assets/images/tay_son_bg.svg",
+  "keyEvents": [
+    { "year": "1785", "title": "Trận Rạch Gầm - Xoài Mút", "desc": "Tiêu diệt 5 vạn quân Xiêm trên dòng sông Tiền trong vòng một ngày." },
+    { "year": "1789", "title": "Chiến thắng Ngọc Hồi - Đống Đa", "desc": "Hành quân thần tốc từ Phú Xuân ra Thăng Long đại phá 29 vạn quân Thanh vào mùng 5 Tết." }
+  ],
+  "gallery": [
+    {
+      "id": "ts_01",
+      "title": "Vua Quang Trung Tiến Quân Vào Thăng Long",
+      "category": "Battle",
+      "type": "Chiến thắng thần tốc",
+      "year": "Mùng 5 Tết Kỷ Dậu 1789",
+      "location": "Kinh thành Thăng Long",
+      "character": "Hoàng đế Quang Trung (Nguyễn Huệ)",
+      "significance": "Thiên tài quân sự đỉnh cao với lối đánh bất ngờ, thần tốc.",
+      "description": "Áo bào Vua Quang Trung sém đen khói súng khi ông cùng quân sĩ mừng chiến thắng tại Thăng Long.",
+      "image": "assets/images/quang_trung.svg",
+      "source": "Bảo tàng Quang Trung (Bình Định)"
+    }
+  ]
+}

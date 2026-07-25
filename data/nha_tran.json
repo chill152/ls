@@ -1,0 +1,46 @@
+{
+  "id": "nha_tran",
+  "title": "Nhà Trần",
+  "subtitle": "Hào Khí Đông A • 3 Lần Thắng Nguyên Mông",
+  "period": "1225 - 1400",
+  "capital": "Thăng Long (Hà Nội)",
+  "description": "Triều đại lừng lẫy với Hào khí Đông A ba lần đánh tan đế quốc Nguyên Mông hùng mạnh nhất thế giới thời bấy giờ. Các vị minh quân: Trần Thái Tông, Trần Nhân Tông, Hưng Đạo Vương Trần Quốc Tuấn.",
+  "quote": "Nếu Bệ hạ muốn hàng, xin hãy chém đầu thần trước đã!",
+  "quoteAuthor": "Hưng Đạo Đại Vương Trần Quốc Tuấn",
+  "themeColor": "#E60000",
+  "bgGradient": "linear-gradient(135deg, #300404 0%, #0d0101 100%)",
+  "bgImage": "assets/images/nha_tran_bg.svg",
+  "keyEvents": [
+    { "year": "1258", "title": "Kháng chiến chống Nguyên Mông lần 1", "desc": "Thực hiện kế 'Vườn không nhà trống', đánh tan đại quân Ngột Lương Hợp Đãi." },
+    { "year": "1285", "title": "Hội nghị Diên Hồng & Bến Bình Than", "desc": "Trần Quốc Toản bóp nát quả cam, các bô lão đồng lòng reo hò 'ĐÁNH!'." },
+    { "year": "1288", "title": "Đại thắng Bạch Đằng 1288", "desc": "Trần Hưng Đạo bắt sống Ô Mã Nhi, bắt giặc Mông Cổ quy hàng." }
+  ],
+  "gallery": [
+    {
+      "id": "nt_01",
+      "title": "Hưng Đạo Vương Trần Quốc Tuấn",
+      "category": "Portrait",
+      "type": "Anh hùng dân tộc",
+      "year": "1288",
+      "location": "Vạn Kiếp (Hải Dương)",
+      "character": "Trần Hưng Đạo",
+      "significance": "Danh nhân quân sự kiệt xuất của thế giới, người chỉ huy 3 lần đánh bại Mông Cổ.",
+      "description": "Chân dung Trần Hưng Đạo tay cầm Hịch Tướng Sĩ, uy nghiêm đứng trước sóng nước sông Bạch Đằng.",
+      "image": "assets/images/tran_hung_dao.svg",
+      "source": "Đền Trần Nam Định"
+    },
+    {
+      "id": "nt_02",
+      "title": "Trần Quốc Toản Bóp Nát Quả Cam",
+      "category": "Battle",
+      "type": "Hào khí thanh niên",
+      "year": "1282",
+      "location": "Bến Bình Than",
+      "character": "Trần Quốc Toản",
+      "significance": "Ý chí sục sôi yêu nước của tuổi trẻ Việt Nam.",
+      "description": "Vì nhỏ tuổi không được dự hội nghị quân sự, Trần Quốc Toản căm giận bóp nát quả cam trong tay mà không hay biết.",
+      "image": "assets/images/bop_cam.svg",
+      "source": "Bảo tàng Lịch sử Quân sự"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "chong_phap",
+  "title": "Kháng Chiến Chống Pháp",
+  "subtitle": "Chiến Thắng Điện Biên Phủ • Lừng Lẫy Năm Châu",
+  "period": "1858 - 1954",
+  "capital": "Hà Nội / Chiến khu Việt Bắc",
+  "description": "Gần một thế kỷ kiên cường đấu tranh chống thực dân Pháp. Lời kêu gọi Toàn quốc kháng chiến năm 1946 của Chủ tịch Hồ Chí Minh kết thúc bằng Chiến thắng lịch sử Điện Biên Phủ 'chấn động địa cầu' năm 1954.",
+  "quote": "Chúng ta thà sinh h sinh tất cả, chứ nhất định không chịu mất nước, nhất định không chịu làm nô lệ!",
+  "quoteAuthor": "Chủ tịch Hồ Chí Minh (1946)",
+  "themeColor": "#228B22",
+  "bgGradient": "linear-gradient(135deg, #092109 0%, #020a02 100%)",
+  "bgImage": "assets/images/chong_phap_bg.svg",
+  "keyEvents": [
+    { "year": "2/9/1945", "title": "Tuyên Ngôn Độc Lập", "desc": "Bác Hồ đọc Tuyên ngôn Độc lập tại Quảng trường Ba Đình khai sinh Nước Dân chủ Cộng hòa." },
+    { "year": "19/12/1946", "title": "Toàn Quốc Kháng Chiến", "desc": "Nhân dân cả nước đứng lên chống thực dân Pháp." },
+    { "year": "7/5/1954", "title": "Chiến thắng Điện Biên Phủ", "desc": "Lá cờ Quyết chiến Quyết thắng tung bay trên nóc hầm De Castries." }
+  ],
+  "gallery": [
+    {
+      "id": "cp_01",
+      "title": "Lá Cờ Chiến Thắng Trên Nóc Hầm De Castries",
+      "category": "Battle",
+      "type": "Kỷ niệm lịch sử",
+      "year": "7/5/1954",
+      "location": "Tập đoàn cứ điểm Điện Biên Phủ",
+      "character": "Đại tướng Võ Nguyên Giáp & Bộ đội Điện Biên",
+      "significance": "Cột mốc chấm dứt hoàn toàn ách thống trị thực dân Pháp tại Đông Dương.",
+      "description": "Bộ đội ta phất cao cờ Quyết chiến Quyết thắng trên hầm chỉ huy tướng De Castries chiều 7/5/1954.",
+      "image": "assets/images/dien_bien_phu.svg",
+      "source": "Bảo tàng Lịch sử Quân sự Việt Nam"
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "id": "hung_vuong",
+  "title": "Thời Kỳ Hùng Vương",
+  "subtitle": "Khai Thiên Lập Địa • Nhà Nước Văn Lang",
+  "period": "2879 - 258 TCN",
+  "capital": "Phong Châu (Phú Thọ)",
+  "description": "Thời kỳ Hồng Bàng khai mở bình minh lịch sử dân tộc Việt Nam. 18 đời Hùng Vương dựng nước Văn Lang, đặt nền móng văn minh Sông Hồng, văn hóa Trống Đồng Đông Sơn độc đáo.",
+  "quote": "Các Vua Hùng đã có công dựng nước, Bác cháu ta phải cùng nhau giữ lấy nước.",
+  "quoteAuthor": "Chủ tịch Hồ Chí Minh (1954)",
+  "themeColor": "#D4AF37",
+  "bgGradient": "linear-gradient(135deg, #1f1406 0%, #0d0903 100%)",
+  "bgImage": "assets/images/hung_vuong_bg.svg",
+  "keyEvents": [
+    { "year": "2879 TCN", "title": "Khai sinh họ Hồng Bàng", "desc": "Lạc Long Quân và Âu Cơ sinh ra bọc trăm trứng, mở đầu cho truyền thuyết Con Rồng Cháu Tiên." },
+    { "year": "Văn hóa Đông Sơn", "title": "Kỹ thuật đúc Trống Đồng", "desc": "Đỉnh cao nghệ thuật đúc đồng với những chiếc trống đồng Ngọc Lũ, Hoàng Hạ tinh xảo." },
+    { "year": "258 TCN", "title": "Nhường ngôi cho An Dương Vương", "desc": "Kết thúc 18 đời Hùng Vương, chuyển giao cho nhà nước Âu Lạc." }
+  ],
+  "gallery": [
+    {
+      "id": "hv_01",
+      "title": "Trống Đồng Ngọc Lũ",
+      "category": "Artifact",
+      "type": "Di vật / Bảo vật Quốc gia",
+      "year": "Thế kỷ II - III TCN",
+      "location": "Bảo tàng Lịch sử Quốc gia",
+      "character": "Nghệ nhân Đông Sơn",
+      "significance": "Biểu tượng văn hóa tâm linh và trình độ luyện kim đỉnh cao của cư dân Văn Lang.",
+      "description": "Trống đồng Ngọc Lũ chứa các đường hoa văn hình chim Lạc, vũ công nhảy múa, thuyền chiến và hình ảnh sinh hoạt của người Việt cổ.",
+      "image": "assets/images/trong_dong.svg",
+      "source": "Bảo tàng Lịch sử Quốc gia Việt Nam"
+    },
+    {
+      "id": "hv_02",
+      "title": "Chân Dụng Vua Hùng",
+      "category": "Portrait",
+      "type": "Chân dung",
+      "year": "2879 TCN",
+      "location": "Đền Hùng (Phú Thọ)",
+      "character": "Vua Hùng thứ I (Kinh Dương Vương)",
+      "significance": "Người đứng đầu thủy tổ của dân tộc Việt Nam.",
+      "description": "Hình ảnh tái hiện Quốc tổ Hùng Vương uy nghiêm với trang phục lông chim, tay cầm quyền gậy thần.",
+      "image": "assets/images/hung_vuong_portrait.svg",
+      "source": "Truyền thuyết Lịch sử Việt Nam"
+    },
+    {
+      "id": "hv_03",
+      "title": "Sự Tích Bánh Chưng Bánh Giầy",
+      "category": "Architecture",
+      "type": "Văn hóa truyền thống",
+      "year": "Thời Hùng Vương thứ 6",
+      "location": "Phong Châu",
+      "character": "Lang Liêu",
+      "significance": "Bài học triết lý Vuông - Tròn đại diện cho Trời và Đất.",
+      "description": "Lang Liêu dùng hạt gạo nếp dâng lên Vua Hùng sản vật giản dị mà giàu ý nghĩa, được truyền làm phong tục Tết đến ngày nay.",
+      "image": "assets/images/banh_chung.svg",
+      "source": "Lĩnh Nam Chích Quái"
+    }
+  ]
+}

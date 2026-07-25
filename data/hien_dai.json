@@ -1,0 +1,33 @@
+{
+  "id": "hien_dai",
+  "title": "Việt Nam Hiện Đại",
+  "subtitle": "Hội Nhập Phát Triển • Vươn Tầm Thế Giới",
+  "period": "1975 - Nay",
+  "capital": "Hà Nội",
+  "description": "Việt Nam bước vào thời kỳ Đổi Mới (1986), công nghiệp hóa, hiện đại hóa, giữ vững độc lập chủ quyền, khẳng định vị thế và vươn mình ra thế giới trong thế kỷ 21.",
+  "quote": "Đất nước ta chưa bao giờ có được cơ đồ, tiềm lực, vị thế và uy tín quốc tế như ngày nay.",
+  "quoteAuthor": "Tổng Bí thư Nguyễn Phú Trọng",
+  "themeColor": "#008080",
+  "bgGradient": "linear-gradient(135deg, #032121 0%, #000a0a 100%)",
+  "bgImage": "assets/images/hien_dai_bg.svg",
+  "keyEvents": [
+    { "year": "1986", "title": "Đại hội Đổi Mới", "desc": "Chuyển sang nền kinh tế thị trường định hướng xã hội chủ nghĩa." },
+    { "year": "1995", "title": "Hội nhập Quốc tế", "desc": "Gia nhập ASEAN, bình thường hóa quan hệ với Hoa Kỳ." },
+    { "year": "Thế kỷ 21", "title": "Kỷ nguyên Vươn mình", "desc": "Phát triển công nghệ số, kinh tế xanh và vị thế uy tín trên toàn cầu." }
+  ],
+  "gallery": [
+    {
+      "id": "hd_01",
+      "title": "Hà Nội - Thành Phố Vì Hòa Bình",
+      "category": "Architecture",
+      "type": "Đô thị hiện đại",
+      "year": "Thế kỷ XXI",
+      "location": "Thủ đô Hà Nội",
+      "character": "Nhân dân Việt Nam",
+      "significance": "Biểu tượng kết hợp giữa cổ kính ngàn năm văn hiến và hiện đại phát triển.",
+      "description": "Đường phố Hà Nội với Hồ Hoàn Kiếm, Cầu Nhật Tân lung linh ánh đèn hòa nhập cùng dòng chảy phát triển.",
+      "image": "assets/images/ha_noi_hien_dai.svg",
+      "source": "Cổng Thông tin Điện tử Chính phủ"
+    }
+  ]
+}

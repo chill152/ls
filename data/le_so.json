@@ -1,0 +1,46 @@
+{
+  "id": "le_so",
+  "title": "Nhà Lê Sơ",
+  "subtitle": "Bình Ngô Đại Cáo • Cảnh Trị Hoàng Kim",
+  "period": "1428 - 1527",
+  "capital": "Đông Kinh (Hà Nội)",
+  "description": "Khởi nghĩa Lam Sơn do Lê Lợi và Nguyễn Trãi lãnh đạo đánh đuổi quân Minh. Nguyễn Trãi viết 'Bình Ngô Đại Cáo' - bản Tuyên ngôn Độc lập thứ hai. Thời Vua Lê Thánh Tông đạt đỉnh cao thịnh trị Hồng Đức.",
+  "quote": "Đem đại nghĩa để thắng hung tàn - Lấy chí nhân để thay quyền bạo.",
+  "quoteAuthor": "Danh nhân Nguyễn Trãi (1427)",
+  "themeColor": "#FF4500",
+  "bgGradient": "linear-gradient(135deg, #2b0c03 0%, #0a0300 100%)",
+  "bgImage": "assets/images/le_so_bg.svg",
+  "keyEvents": [
+    { "year": "1418 - 1427", "title": "Khởi nghĩa Lam Sơn", "desc": "10 năm nằm gai nếm mật tại vùng núi Thanh Hóa đánh tan quân Minh xâm lược." },
+    { "year": "1428", "title": "Công bố Bình Ngô Đại Cáo", "desc": "Bản thiên cổ hùng văn khẳng định chủ quyền độc lập văn hiến lâu đời." },
+    { "year": "1460 - 1497", "title": "Kỷ nguyên Hồng Đức Thạnh Trị", "desc": "Vua Lê Thánh Tông ban hành Luật Hồng Đức và Bản đồ Hồng Đức." }
+  ],
+  "gallery": [
+    {
+      "id": "ls_01",
+      "title": "Nguyễn Trãi Viết Bình Ngô Đại Cáo",
+      "category": "Portrait",
+      "type": "Tuyên ngôn lịch sử",
+      "year": "1427",
+      "location": "Đông Quan (Hà Nội)",
+      "character": "Danh nhân Văn hóa Nguyễn Trãi",
+      "significance": "Bản thiên cổ hùng văn bất tận về độc lập dân tộc.",
+      "description": "Nguyễn Trãi miệt mài bên ngọn đèn dầu viết lên những trang sử vàng chói lọi của dân tộc.",
+      "image": "assets/images/nguyen_trai.svg",
+      "source": "Bảo tàng Văn học Việt Nam"
+    },
+    {
+      "id": "ls_02",
+      "title": "Sự Tích Trả Gươm Thần Hồ Hoàn Kiếm",
+      "category": "Artifact",
+      "type": "Truyền thuyết lịch sử",
+      "year": "1428",
+      "location": "Hồ Tả Vọng (Hồ Hoàn Kiếm, Hà Nội)",
+      "character": "Vua Lê Thái Tổ (Lê Lợi)",
+      "significance": "Khát vọng hòa bình dẹp yên binh đao của dân tộc.",
+      "description": "Vua Lê Lợi dạo thuyền trên hồ gặp Rùa Vàng ngoi lên đòi lại thanh gươm thần Thuận Thiên.",
+      "image": "assets/images/ho_hoan_kiem.svg",
+      "source": "Bảo tàng Hà Nội"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "nha_nguyen",
+  "title": "Nhà Nguyễn",
+  "subtitle": "Quốc Hiệu Việt Nam • Di Sản Cố Đô Huế",
+  "period": "1802 - 1945",
+  "capital": "Phú Xuân - Cố đô Huế",
+  "description": "Vua Gia Long thống nhất đất nước từ Mũi Cà Mau đến Mục Nam Quan, chính thức đặt quốc hiệu VIỆT NAM năm 1804. Triều Nguyễn để lại kho tàng di sản Cố đô Huế, Nhã nhạc Cung đình và Mộc bản.",
+  "quote": "Nước Đại Việt ta nay gọi là Việt Nam - Lãnh thổ trải dài một dải gấm vóc.",
+  "quoteAuthor": "Sử triều Nguyễn (1804)",
+  "themeColor": "#FFD700",
+  "bgGradient": "linear-gradient(135deg, #2b2302 0%, #0a0800 100%)",
+  "bgImage": "assets/images/nha_nguyen_bg.svg",
+  "keyEvents": [
+    { "year": "1802", "title": "Gia Long Lên Ngôi", "desc": "Thống nhất giang sơn, đóng đô tại Cố đô Huế." },
+    { "year": "1804", "title": "Đặt Quốc Hiệu VIỆT NAM", "desc": "Chính thức lấy tên nước là Việt Nam được thế giới công nhận." },
+    { "year": "1945", "title": "Vua Bảo Đại Thoái Vị", "desc": "Trao ấn kiếm cho Chính phủ Lâm thời, kết thúc phong kiến Việt Nam." }
+  ],
+  "gallery": [
+    {
+      "id": "nn_01",
+      "title": "Ngọ Môn - Đại Nội Cố Đô Huế",
+      "category": "Architecture",
+      "type": "Di sản Văn hóa Thế giới",
+      "year": "1833",
+      "location": "Thừa Thiên Huế",
+      "character": "Vua Minh Mạng",
+      "significance": "Công trình kiến trúc đỉnh cao đại diện hoàng cung triều Nguyễn.",
+      "description": "Ngọ Môn với 5 cổng vòm và Lầu Ngũ Phụng tráng lệ nhìn ra Quảng trường Ngọ Môn.",
+      "image": "assets/images/ngo_mon_hue.svg",
+      "source": "Trung tâm Bảo tồn Di tích Cố đô Huế"
+    }
+  ]
+}

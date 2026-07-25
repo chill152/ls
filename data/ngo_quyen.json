@@ -1,0 +1,32 @@
+{
+  "id": "ngo_quyen",
+  "title": "Nhà Ngô - Ngô Quyền",
+  "subtitle": "Khai Sinh Kỷ Nguyên Độc Lập Bắt Đầu",
+  "period": "938 - 965",
+  "capital": "Cổ Loa",
+  "description": "Chiến thắng Bạch Đằng năm 938 cắm cọc gỗ nhọn đập tan quân Nam Hán, Ngô Quyền xưng Vương, chấm dứt hoàn toàn 1000 năm Bắc thuộc, mở ra kỷ nguyên độc lập lâu dài.",
+  "quote": "Ngô Quyền cứu dân độ thế, đánh đuổi quân thù, xưng Vương mở nền độc lập.",
+  "quoteAuthor": "Đại Việt Sử Ký Toàn Thư",
+  "themeColor": "#8B0000",
+  "bgGradient": "linear-gradient(135deg, #2b0606 0%, #0d0101 100%)",
+  "bgImage": "assets/images/ngo_quyen_bg.svg",
+  "keyEvents": [
+    { "year": "938", "title": "Đại thắng Sông Bạch Đằng", "desc": "Dùng kế cọc gỗ bọc sắt nhọn lợi dụng thủy triều tiêu diệt toàn bộ chiến thuyền Nam Hán." },
+    { "year": "939", "title": "Ngô Quyền Xưng Vương", "desc": "Bỏ chức Tiết độ sứ của phương Bắc, tự xưng Vương, chọn Cổ Loa làm kinh đô." }
+  ],
+  "gallery": [
+    {
+      "id": "nq_01",
+      "title": "Trận Thuỷ Chiến Bạch Đằng 938",
+      "category": "Battle",
+      "type": "Trận đánh lịch sử",
+      "year": "938",
+      "location": "Sông Bạch Đằng (Quảng Ninh - Hải Phòng)",
+      "character": "Ngô Quyền & Hoằng Thao",
+      "significance": "Trận chiến thủy quân chiến lược vĩ đại bậc nhất lịch sử Việt Nam.",
+      "description": "Thủy triều rút nhanh làm chiến thuyền Nam Hán đâm phải cọt bọc sắt, toàn bộ quân địch bị tiêu diệt.",
+      "image": "assets/images/bach_dang_938.svg",
+      "source": "Bảo tàng Hải Quân"
+    }
+  ]
+}

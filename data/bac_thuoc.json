@@ -1,0 +1,46 @@
+{
+  "id": "bac_thuoc",
+  "title": "1000 Năm Bắc Thuộc",
+  "subtitle": "Đêm Đen Bất Khuất • Ngọn Lửa Khởi Nghĩa",
+  "period": "179 TCN - 938",
+  "capital": "Mê Linh / Vạn Xuân / Dạ Trạch",
+  "description": "Hơn mười thế kỷ dưới ách đô hộ phong kiến phương Bắc, tổ tiên ta kiên cường bảo vệ ngôn ngữ, phong tục và liên tục nổi dậy giành lại độc lập dân tộc.",
+  "quote": "Bắt phong trần phải phong trần - Cho thanh cao mới được phần thanh cao.",
+  "quoteAuthor": "Sử thi Khởi nghĩa Hai Bà Trưng",
+  "themeColor": "#A52A2A",
+  "bgGradient": "linear-gradient(135deg, #240c0c 0%, #0f0404 100%)",
+  "bgImage": "assets/images/bac_thuoc_bg.svg",
+  "keyEvents": [
+    { "year": "40 - 43", "title": "Khởi nghĩa Hai Bà Trưng", "desc": "Trưng Trắc, Trưng Nhị cưỡi voi phất cờ khởi nghĩa đánh đuổi Tô Định, lập quốc xưng Vương tại Mê Linh." },
+    { "year": "248", "title": "Khởi nghĩa Bà Triệu", "desc": "Triệu Thị Trinh phất cờ đánh quân Ngô với câu nói bất hủ: 'Tôi muốn cưỡi cơn gió mạnh, đạp luồng sóng dữ'." },
+    { "year": "542 - 602", "title": "Nhà Vạn Xuân - Lý Nam Đế", "desc": "Lý Bôn đánh đuổi quân Lương, lên ngôi Lý Nam Đế, đặt quốc hiệu Vạn Xuân." }
+  ],
+  "gallery": [
+    {
+      "id": "bt_01",
+      "title": "Hai Bà Trưng Cưỡi Voi Ra Trận",
+      "category": "Battle",
+      "type": "Tranh lịch sử",
+      "year": "Mùa xuân năm 40",
+      "location": "Hát Môn (Phúc Thọ, Hà Nội)",
+      "character": "Trưng Trắc & Trưng Nhị",
+      "significance": "Cuộc khởi nghĩa nữ quyền đầu tiên đập tan chính quyền đô hộ nhà Hán.",
+      "description": "Trưng Trắc và Trưng Nhị cưỡi voi chiến dẫn đầu 65 thành cõi Nam đứng lên đáp lời sông núi.",
+      "image": "assets/images/hai_ba_trung.svg",
+      "source": "Bảo tàng Phụ nữ Việt Nam"
+    },
+    {
+      "id": "bt_02",
+      "title": "Bà Triệu Ra Chiến Trường",
+      "category": "Portrait",
+      "type": "Hình tượng anh hùng",
+      "year": "248",
+      "location": "Căn cứ Nưa - Triệu Sơn, Thanh Hóa",
+      "character": "Bà Triệu (Triệu Thị Trinh)",
+      "significance": "Biểu tượng khí phách kiên cường bất khuất của người phụ nữ Việt.",
+      "description": "Bà Triệu mặc áo giáp vàng, đi guốc guốc ngà, cưỡi voi trắng xông trận đập tan quân xâm lược Đông Ngô.",
+      "image": "assets/images/ba_trieu.svg",
+      "source": "Tranh dân gian Đông Hồ"
+    }
+  ]
+}

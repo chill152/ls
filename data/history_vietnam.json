@@ -1,0 +1,583 @@
+[
+  {
+    "id": "hung_vuong",
+    "title": "Thời Kỳ Hùng Vương",
+    "subtitle": "Khai Thiên Lập Địa • Nhà Nước Văn Lang",
+    "period": "2879 - 258 TCN",
+    "capital": "Phong Châu (Phú Thọ)",
+    "description": "Thời kỳ Hồng Bàng khai mở bình minh lịch sử dân tộc Việt Nam. 18 đời Hùng Vương dựng nước Văn Lang, đặt nền móng văn minh Sông Hồng, văn hóa Trống Đồng Đông Sơn độc đáo.",
+    "quote": "Các Vua Hùng đã có công dựng nước, Bác cháu ta phải cùng nhau giữ lấy nước.",
+    "quoteAuthor": "Chủ tịch Hồ Chí Minh (1954)",
+    "themeColor": "#D4AF37",
+    "bgGradient": "linear-gradient(135deg, #1f1406 0%, #0d0903 100%)",
+    "bgImage": "assets/images/hung_vuong_bg.svg",
+    "keyEvents": [
+      { "year": "2879 TCN", "title": "Khai sinh họ Hồng Bàng", "desc": "Lạc Long Quân và Âu Cơ sinh ra bọc trăm trứng, mở đầu cho truyền thuyết Con Rồng Cháu Tiên." },
+      { "year": "Văn hóa Đông Sơn", "title": "Kỹ thuật đúc Trống Đồng", "desc": "Đỉnh cao nghệ thuật đúc đồng với những chiếc trống đồng Ngọc Lũ, Hoàng Hạ tinh xảo." },
+      { "year": "258 TCN", "title": "Nhường ngôi cho An Dương Vương", "desc": "Kết thúc 18 đời Hùng Vương, chuyển giao cho nhà nước Âu Lạc." }
+    ],
+    "gallery": [
+      {
+        "id": "hv_01",
+        "title": "Trống Đồng Ngọc Lũ",
+        "category": "Artifact",
+        "type": "Di vật / Bảo vật Quốc gia",
+        "year": "Thế kỷ II - III TCN",
+        "location": "Bảo tàng Lịch sử Quốc gia",
+        "character": "Nghệ nhân Đông Sơn",
+        "significance": "Biểu tượng văn hóa tâm linh và trình độ luyện kim đỉnh cao của cư dân Văn Lang.",
+        "description": "Trống đồng Ngọc Lũ chứa các đường hoa văn hình chim Lạc, vũ công nhảy múa, thuyền chiến và hình ảnh sinh hoạt của người Việt cổ.",
+        "image": "assets/images/trong_dong.svg",
+        "source": "Bảo tàng Lịch sử Quốc gia Việt Nam"
+      },
+      {
+        "id": "hv_02",
+        "title": "Chân Dụng Vua Hùng",
+        "category": "Portrait",
+        "type": "Chân dung",
+        "year": "2879 TCN",
+        "location": "Đền Hùng (Phú Thọ)",
+        "character": "Vua Hùng thứ I (Kinh Dương Vương)",
+        "significance": "Người đứng đầu thủy tổ của dân tộc Việt Nam.",
+        "description": "Hình ảnh tái hiện Quốc tổ Hùng Vương uy nghiêm với trang phục lông chim, tay cầm quyền gậy thần.",
+        "image": "assets/images/hung_vuong_portrait.svg",
+        "source": "Truyền thuyết Lịch sử Việt Nam"
+      },
+      {
+        "id": "hv_03",
+        "title": "Sự Tích Bánh Chưng Bánh Giầy",
+        "category": "Architecture",
+        "type": "Văn hóa truyền thống",
+        "year": "Thời Hùng Vương thứ 6",
+        "location": "Phong Châu",
+        "character": "Lang Liêu",
+        "significance": "Bài học triết lý Vuông - Tròn đại diện cho Trời và Đất.",
+        "description": "Lang Liêu dùng hạt gạo nếp dâng lên Vua Hùng sản vật giản dị mà giàu ý nghĩa, được truyền làm phong tục Tết đến ngày nay.",
+        "image": "assets/images/banh_chung.svg",
+        "source": "Lĩnh Nam Chích Quái"
+      }
+    ]
+  },
+  {
+    "id": "an_duong_vuong",
+    "title": "Thục Phân - An Dương Vương",
+    "subtitle": "Nhà Nước Âu Lạc • Kỳ Tích Cổ Loa",
+    "period": "257 - 179 TCN",
+    "capital": "Cổ Loa (Đông Anh, Hà Nội)",
+    "description": "An Dương Vương Thục Phàn hợp nhất Nam Cương và Văn Lang thành nhà nước Âu Lạc. Xây dựng tòa thành xoáy ốc Cổ Loa kiên cố cùng nỏ thần Liên Châu đánh bại hàng vạn quân Triệu Đà.",
+    "quote": "Thành Cổ Loa chín vòng xoắn ốc - Nỏ thần Kim Quy một phát trúng nghìn quân.",
+    "quoteAuthor": "Sử ký Đại Việt",
+    "themeColor": "#CD7F32",
+    "bgGradient": "linear-gradient(135deg, #1c1109 0%, #0a0603 100%)",
+    "bgImage": "assets/images/an_duong_vuong_bg.svg",
+    "keyEvents": [
+      { "year": "257 TCN", "title": "Thành lập nước Âu Lạc", "desc": "Thục Phàn xưng An Dương Vương, đóng đô tại Cổ Loa." },
+      { "year": "208 TCN", "title": "Xây dựng Thành Cổ Loa", "desc": "Công trình kiến trúc quân sự độc đáo bậc nhất Đông Nam Á thời cổ đại." },
+      { "year": "179 TCN", "title": "Mưu đồ Trọng Thủy - Mỵ Châu", "desc": "Âu Lạc rơi vào tay Triệu Đà do sự chủ quan và mắc mưu gián điệp." }
+    ],
+    "gallery": [
+      {
+        "id": "adv_01",
+        "title": "Sơ Đồ Thành Cổ Loa 9 Vòng",
+        "category": "Map",
+        "type": "Kiến trúc / Quân sự",
+        "year": "257 TCN",
+        "location": "Đông Anh, Hà Nội",
+        "character": "An Dương Vương & Cao Lỗ",
+        "significance": "Tòa thành quân sự độc đáo với 3 vòng thành đất kiên cố bao quanh hào nước sâu.",
+        "description": "Thành Cổ Loa được thiết kế theo hình xoáy ốc, lợi dụng địa hình sông suối tự nhiên để làm hào chắn thủ vững chắc.",
+        "image": "assets/images/co_loa_map.svg",
+        "source": "Bảo tàng Hà Nội"
+      },
+      {
+        "id": "adv_02",
+        "title": "Nỏ Liên Châu (Nỏ Thần Kim Quy)",
+        "category": "Artifact",
+        "type": "Vũ khí cổ đại",
+        "year": "Thế kỷ III TCN",
+        "location": "Cổ Loa",
+        "character": "Tướng quân Cao Lỗ",
+        "significance": "Vũ khí quân sự phát ra cùng lúc hàng chục mũi tên đồng uy lực khiên quân thù bạt vía.",
+        "description": "Nỏ thần do Cao Lỗ sáng tạo dựa trên lẫy nỏ bằng đồng có thể bắn cùng lúc nhiều mũi tên đồng 3 cạnh.",
+        "image": "assets/images/no_than.svg",
+        "source": "Viện Chế tác Vũ khí Cổ"
+      }
+    ]
+  },
+  {
+    "id": "bac_thuoc",
+    "title": "1000 Năm Bắc Thuộc",
+    "subtitle": "Đêm Đen Bất Khuất • Ngọn Lửa Khởi Nghĩa",
+    "period": "179 TCN - 938",
+    "capital": "Mê Linh / Vạn Xuân / Dạ Trạch",
+    "description": "Hơn mười thế kỷ dưới ách đô hộ phong kiến phương Bắc, tổ tiên ta kiên cường bảo vệ ngôn ngữ, phong tục và liên tục nổi dậy giành lại độc lập dân tộc.",
+    "quote": "Bắt phong trần phải phong trần - Cho thanh cao mới được phần thanh cao.",
+    "quoteAuthor": "Sử thi Khởi nghĩa Hai Bà Trưng",
+    "themeColor": "#A52A2A",
+    "bgGradient": "linear-gradient(135deg, #240c0c 0%, #0f0404 100%)",
+    "bgImage": "assets/images/bac_thuoc_bg.svg",
+    "keyEvents": [
+      { "year": "40 - 43", "title": "Khởi nghĩa Hai Bà Trưng", "desc": "Trưng Trắc, Trưng Nhị cưỡi voi phất cờ khởi nghĩa đánh đuổi Tô Định, lập quốc xưng Vương tại Mê Linh." },
+      { "year": "248", "title": "Khởi nghĩa Bà Triệu", "desc": "Triệu Thị Trinh phất cờ đánh quân Ngô với câu nói bất hủ: 'Tôi muốn cưỡi cơn gió mạnh, đạp luồng sóng dữ'." },
+      { "year": "542 - 602", "title": "Nhà Vạn Xuân - Lý Nam Đế", "desc": "Lý Bôn đánh đuổi quân Lương, lên ngôi Lý Nam Đế, đặt quốc hiệu Vạn Xuân." }
+    ],
+    "gallery": [
+      {
+        "id": "bt_01",
+        "title": "Hai Bà Trưng Cưỡi Voi Ra Trận",
+        "category": "Battle",
+        "type": "Tranh lịch sử",
+        "year": "Mùa xuân năm 40",
+        "location": "Hát Môn (Phúc Thọ, Hà Nội)",
+        "character": "Trưng Trắc & Trưng Nhị",
+        "significance": "Cuộc khởi nghĩa nữ quyền đầu tiên đập tan chính quyền đô hộ nhà Hán.",
+        "description": "Trưng Trắc và Trưng Nhị cưỡi voi chiến dẫn đầu 65 thành cõi Nam đứng lên đáp lời sông núi.",
+        "image": "assets/images/hai_ba_trung.svg",
+        "source": "Bảo tàng Phụ nữ Việt Nam"
+      },
+      {
+        "id": "bt_02",
+        "title": "Bà Triệu Ra Chiến Trường",
+        "category": "Portrait",
+        "type": "Hình tượng anh hùng",
+        "year": "248",
+        "location": "Căn cứ Nưa - Triệu Sơn, Thanh Hóa",
+        "character": "Bà Triệu (Triệu Thị Trinh)",
+        "significance": "Biểu tượng khí phách kiên cường bất khuất của người phụ nữ Việt.",
+        "description": "Bà Triệu mặc áo giáp vàng, đi guốc guốc ngà, cưỡi voi trắng xông trận đập tan quân xâm lược Đông Ngô.",
+        "image": "assets/images/ba_trieu.svg",
+        "source": "Tranh dân gian Đông Hồ"
+      }
+    ]
+  },
+  {
+    "id": "ngo_quyen",
+    "title": "Nhà Ngô - Ngô Quyền",
+    "subtitle": "Khai Sinh Kỷ Nguyên Độc Lập Bắt Đầu",
+    "period": "938 - 965",
+    "capital": "Cổ Loa",
+    "description": "Chiến thắng Bạch Đằng năm 938 cắm cọc gỗ nhọn đập tan quân Nam Hán, Ngô Quyền xưng Vương, chấm dứt hoàn toàn 1000 năm Bắc thuộc, mở ra kỷ nguyên độc lập lâu dài.",
+    "quote": "Ngô Quyền cứu dân độ thế, đánh đuổi quân thù, xưng Vương mở nền độc lập.",
+    "quoteAuthor": "Đại Việt Sử Ký Toàn Thư",
+    "themeColor": "#8B0000",
+    "bgGradient": "linear-gradient(135deg, #2b0606 0%, #0d0101 100%)",
+    "bgImage": "assets/images/ngo_quyen_bg.svg",
+    "keyEvents": [
+      { "year": "938", "title": "Đại thắng Sông Bạch Đằng", "desc": "Dùng kế cọc gỗ bọc sắt nhọn lợi dụng thủy triều tiêu diệt toàn bộ chiến thuyền Nam Hán." },
+      { "year": "939", "title": "Ngô Quyền Xưng Vương", "desc": "Bỏ chức Tiết độ sứ của phương Bắc, tự xưng Vương, chọn Cổ Loa làm kinh đô." }
+    ],
+    "gallery": [
+      {
+        "id": "nq_01",
+        "title": "Trận Thuỷ Chiến Bạch Đằng 938",
+        "category": "Battle",
+        "type": "Trận đánh lịch sử",
+        "year": "938",
+        "location": "Sông Bạch Đằng (Quảng Ninh - Hải Phòng)",
+        "character": "Ngô Quyền & Hoằng Thao",
+        "significance": "Trận chiến thủy quân chiến lược vĩ đại bậc nhất lịch sử Việt Nam.",
+        "description": "Thủy triều rút nhanh làm chiến thuyền Nam Hán đâm phải cọt bọc sắt, toàn bộ quân địch bị tiêu diệt.",
+        "image": "assets/images/bach_dang_938.svg",
+        "source": "Bảo tàng Hải Quân"
+      }
+    ]
+  },
+  {
+    "id": "nha_dinh",
+    "title": "Nhà Đinh",
+    "subtitle": "Đinh Tiên Hoàng • Quốc Hiệu Đại Cồ Việt",
+    "period": "968 - 980",
+    "capital": "Hoa Lư (Ninh Bình)",
+    "description": "Đinh Bộ Lĩnh với tài thao lược đã dẹp loạn 12 sứ quân, thống nhất đất nước, xưng Hoàng đế (Đinh Tiên Hoàng), đặt quốc hiệu Đại Cồ Việt và đúc đồng tiền Thái Bình Hưng Bảo.",
+    "quote": "Bảo vật Hoa Lư - Hoàng đế đầu tiên xưng xước Nam bang.",
+    "quoteAuthor": "Sử ký Đại Việt",
+    "themeColor": "#DAA520",
+    "bgGradient": "linear-gradient(135deg, #291e03 0%, #0a0700 100%)",
+    "bgImage": "assets/images/nha_dinh_bg.svg",
+    "keyEvents": [
+      { "year": "967", "title": "Thống nhất 12 Sứ Quân", "desc": "Đinh Bộ Lĩnh mài giũa tài năng từ cờ lau tập trận, thu phục toàn bộ các sứ quân." },
+      { "year": "968", "title": "Lên ngôi Hoàng Đế", "desc": "Đặt quốc hiệu Đại Cồ Việt, dựng kinh đô Hoa Lư núi non hiểm trở." }
+    ],
+    "gallery": [
+      {
+        "id": "nd_01",
+        "title": "Đinh Bộ Lĩnh Tập Trận Cờ Lau",
+        "category": "Portrait",
+        "type": "Thời niên thiếu",
+        "year": "Thế kỷ X",
+        "location": "Gia Viễn, Ninh Bình",
+        "character": "Đinh Bộ Lĩnh",
+        "significance": "Tài năng lãnh đạo xuất chúng ngay từ tuổi thơ.",
+        "description": "Cậu bé Đinh Bộ Lĩnh lấy bông cờ lau làm cờ trận, cùng bạn chăn trâu giả làm quân sĩ.",
+        "image": "assets/images/co_lau.svg",
+        "source": "Bảo tàng Cố đô Hoa Lư"
+      }
+    ]
+  },
+  {
+    "id": "tien_le",
+    "title": "Nhà Tiền Lê",
+    "subtitle": "Lê Đại Hành • Phá Tống Bình Chiêm",
+    "period": "980 - 1009",
+    "capital": "Hoa Lư (Ninh Bình)",
+    "description": "Lê Hoàn được Thái hậu Dương Vân Nga trao áo long bào lên ngôi Hoàng đế. Ông trực tiếp cầm quân phá tan đại quân Tống trên sông Bạch Đằng 981, giữ vững nền độc lập.",
+    "quote": "Dương Thái hậu vì nước gạt tình riêng - Trao long bào dựng nghiệp Tiền Lê.",
+    "quoteAuthor": "Đại Việt Sử Ký",
+    "themeColor": "#C0C0C0",
+    "bgGradient": "linear-gradient(135deg, #1f2024 0%, #0a0b0d 100%)",
+    "bgImage": "assets/images/tien_le_bg.svg",
+    "keyEvents": [
+      { "year": "980", "title": "Dương Vân Nga trao Long Bào", "desc": "Thái hậu Dương Vân Nga vì vận nước trao hoàng bào cho Thập đạo Tướng quân Lê Hoàn." },
+      { "year": "981", "title": "Đại thắng quân Tống", "desc": "Lê Hoàn đánh bại quân Tống tại Chi Lăng và Sông Bạch Đằng." }
+    ],
+    "gallery": [
+      {
+        "id": "tl_01",
+        "title": "Thái Hậu Dương Vân Nga Trao Áo Long Bào",
+        "category": "Portrait",
+        "type": "Nghệ thuật lịch sử",
+        "year": "980",
+        "location": "Kinh thành Hoa Lư",
+        "character": "Dương Vân Nga & Lê Hoàn",
+        "significance": "Quyết định lịch sử hy sinh quyền lợi dòng họ vì sự tồn vong của đất nước.",
+        "description": "Bức tranh tái hiện khoảnh khắc Dương Thái hậu trao áo rồng cho Lê Hoàn chuẩn bị ra trận.",
+        "image": "assets/images/long_bao.svg",
+        "source": "Bảo tàng Lịch sử"
+      }
+    ]
+  },
+  {
+    "id": "nha_ly",
+    "title": "Nhà Lý",
+    "subtitle": "Thăng Long Rồng Bay • Nam Quốc Sơn Hà",
+    "period": "1009 - 1225",
+    "capital": "Thăng Long (Hà Nội)",
+    "description": "Lý Thái Tổ dời đô từ Hoa Lư về Thăng Long năm 1010. Triều Lý phát triển rực rỡ văn hóa Phật giáo, xây dựng Văn Miếu Quốc Tử Giám, và bài thơ thần 'Nam Quốc Sơn Hà' của Lý Thường Kiệt.",
+    "quote": "Nam quốc sơn hà Nam đế cư - Tiệt nhiên định phận tại thiên thư.",
+    "quoteAuthor": "Thái úy Lý Thường Kiệt (1077)",
+    "themeColor": "#FFD700",
+    "bgGradient": "linear-gradient(135deg, #2b2203 0%, #0d0a01 100%)",
+    "bgImage": "assets/images/nha_ly_bg.svg",
+    "keyEvents": [
+      { "year": "1010", "title": "Chiếu Dời Đô về Thăng Long", "desc": "Lý Thái Tổ nhìn thấy rồng vàng bay lên tại Đại La, quyết định dời đô lập nên Thăng Long." },
+      { "year": "1070", "title": "Thành lập Văn Miếu", "desc": "Xây dựng Văn Miếu Quốc Tử Giám - Trường đại học đầu tiên của Việt Nam." },
+      { "year": "1077", "title": "Phòng tuyến Sông Như Nguyệt", "desc": "Lý Thường Kiệt đánh tan 30 vạn quân Tống, âm vang bài thơ Nam Quốc Sơn Hà." }
+    ],
+    "gallery": [
+      {
+        "id": "nl_01",
+        "title": "Lý Thái Tổ Viết Chiếu Dời Đô",
+        "category": "Portrait",
+        "type": "Văn bản lịch sử",
+        "year": "1010",
+        "location": "Thăng Long",
+        "character": "Lý Thái Tổ (Lý Công Uẩn)",
+        "significance": "Tầm nhìn thiên tài định đô ngàn năm cho đất nước.",
+        "description": "Lý Thái Tổ ngắm dải đất Đại La tụ khí rồng chầu hổ phục quyết định dời kinh đô.",
+        "image": "assets/images/chieu_doi_do.svg",
+        "source": "Văn Miếu Thăng Long"
+      },
+      {
+        "id": "nl_02",
+        "title": "Văn Miếu Quốc Tử Giám",
+        "category": "Architecture",
+        "type": "Di tích quốc gia",
+        "year": "1070",
+        "location": "Đống Đa, Hà Nội",
+        "character": "Vua Lý Thánh Tông",
+        "significance": "Biểu tượng tinh hoa trí tuệ và truyền thống hiếu học Việt Nam.",
+        "description": "Khu di tích Văn Miếu Quốc Tử Giám với Khuê Văn Các và Biển bia Tiến sĩ ngàn năm.",
+        "image": "assets/images/van_mieu.svg",
+        "source": "Bảo tàng Hà Nội"
+      }
+    ]
+  },
+  {
+    "id": "nha_tran",
+    "title": "Nhà Trần",
+    "subtitle": "Hào Khí Đông A • 3 Lần Thắng Nguyên Mông",
+    "period": "1225 - 1400",
+    "capital": "Thăng Long (Hà Nội)",
+    "description": "Triều đại lừng lẫy với Hào khí Đông A ba lần đánh tan đế quốc Nguyên Mông hùng mạnh nhất thế giới thời bấy giờ. Các vị minh quân: Trần Thái Tông, Trần Nhân Tông, Hưng Đạo Vương Trần Quốc Tuấn.",
+    "quote": "Nếu Bệ hạ muốn hàng, xin hãy chém đầu thần trước đã!",
+    "quoteAuthor": "Hưng Đạo Đại Vương Trần Quốc Tuấn",
+    "themeColor": "#E60000",
+    "bgGradient": "linear-gradient(135deg, #300404 0%, #0d0101 100%)",
+    "bgImage": "assets/images/nha_tran_bg.svg",
+    "keyEvents": [
+      { "year": "1258", "title": "Kháng chiến chống Nguyên Mông lần 1", "desc": "Thực hiện kế 'Vườn không nhà trống', đánh tan đại quân Ngột Lương Hợp Đãi." },
+      { "year": "1285", "title": "Hội nghị Diên Hồng & Bến Bình Than", "desc": "Trần Quốc Toản bóp nát quả cam, các bô lão đồng lòng reo hò 'ĐÁNH!'." },
+      { "year": "1288", "title": "Đại thắng Bạch Đằng 1288", "desc": "Trần Hưng Đạo bắt sống Ô Mã Nhi, bắt giặc Mông Cổ quy hàng." }
+    ],
+    "gallery": [
+      {
+        "id": "nt_01",
+        "title": "Hưng Đạo Vương Trần Quốc Tuấn",
+        "category": "Portrait",
+        "type": "Anh hùng dân tộc",
+        "year": "1288",
+        "location": "Vạn Kiếp (Hải Dương)",
+        "character": "Trần Hưng Đạo",
+        "significance": "Danh nhân quân sự kiệt xuất của thế giới, người chỉ huy 3 lần đánh bại Mông Cổ.",
+        "description": "Chân dung Trần Hưng Đạo tay cầm Hịch Tướng Sĩ, uy nghiêm đứng trước sóng nước sông Bạch Đằng.",
+        "image": "assets/images/tran_hung_dao.svg",
+        "source": "Đền Trần Nam Định"
+      },
+      {
+        "id": "nt_02",
+        "title": "Trần Quốc Toản Bóp Nát Quả Cam",
+        "category": "Battle",
+        "type": "Hào khí thanh niên",
+        "year": "1282",
+        "location": "Bến Bình Than",
+        "character": "Trần Quốc Toản",
+        "significance": "Ý chí sục sôi yêu nước của tuổi trẻ Việt Nam.",
+        "description": "Vì nhỏ tuổi không được dự hội nghị quân sự, Trần Quốc Toản căm giận bóp nát quả cam trong tay mà không hay biết.",
+        "image": "assets/images/bop_cam.svg",
+        "source": "Bảo tàng Lịch sử Quân sự"
+      }
+    ]
+  },
+  {
+    "id": "nha_ho",
+    "title": "Nhà Hồ",
+    "subtitle": "Hồ Quý Ly • Thành Đá Kiên Cố",
+    "period": "1400 - 1407",
+    "capital": "Tây Đô (Thanh Hóa)",
+    "description": "Hồ Quý Ly tiến hành những cải cách táo bạo: phát hành tiền giấy Thông Bảo đầu tiên, dời đô về Thành Nhà Hồ - di sản kiến trúc đá độc nhất vô nhị ở Đông Nam Á.",
+    "quote": "Tôi không sợ quân giặc mạnh, chỉ sợ lòng dân không theo.",
+    "quoteAuthor": "Tướng quân Hồ Nguyên Trừng",
+    "themeColor": "#8B4513",
+    "bgGradient": "linear-gradient(135deg, #241407 0%, #0a0501 100%)",
+    "bgImage": "assets/images/nha_ho_bg.svg",
+    "keyEvents": [
+      { "year": "1397", "title": "Xây dựng Thành Nhà Hồ", "desc": "Công trình thành đá đồ sộ hoàn thành kỷ lục chỉ trong vòng 3 tháng." },
+      { "year": "1400", "title": "Phát hành Tiền Giấy Thông Bảo", "desc": "Cải cách tài chính tiền tệ đột phá đầu tiên trong lịch sử." }
+    ],
+    "gallery": [
+      {
+        "id": "nh_01",
+        "title": "Cổng Vòm Thành Nhà Hồ",
+        "category": "Architecture",
+        "type": "Di sản Thế giới UNESCO",
+        "year": "1397",
+        "location": "Vĩnh Lộc, Thanh Hóa",
+        "character": "Hồ Quý Ly",
+        "significance": "Kỹ thuật ghép đá khối nén độc đáo bậc nhất không dùng vữa.",
+        "description": "Cổng phía Nam Thành Nhà Hồ được ghép bằng những phiến đá xanh nặng hàng chục tấn trần vòm kiên cố.",
+        "image": "assets/images/thanh_nha_ho.svg",
+        "source": "UNESCO Vietnam"
+      }
+    ]
+  },
+  {
+    "id": "le_so",
+    "title": "Nhà Lê Sơ",
+    "subtitle": "Bình Ngô Đại Cáo • Cảnh Trị Hoàng Kim",
+    "period": "1428 - 1527",
+    "capital": "Đông Kinh (Hà Nội)",
+    "description": "Khởi nghĩa Lam Sơn do Lê Lợi và Nguyễn Trãi lãnh đạo đánh đuổi quân Minh. Nguyễn Trãi viết 'Bình Ngô Đại Cáo' - bản Tuyên ngôn Độc lập thứ hai. Thời Vua Lê Thánh Tông đạt đỉnh cao thịnh trị Hồng Đức.",
+    "quote": "Đem đại nghĩa để thắng hung tàn - Lấy chí nhân để thay quyền bạo.",
+    "quoteAuthor": "Danh nhân Nguyễn Trãi (1427)",
+    "themeColor": "#FF4500",
+    "bgGradient": "linear-gradient(135deg, #2b0c03 0%, #0a0300 100%)",
+    "bgImage": "assets/images/le_so_bg.svg",
+    "keyEvents": [
+      { "year": "1418 - 1427", "title": "Khởi nghĩa Lam Sơn", "desc": "10 năm nằm gai nếm mật tại vùng núi Thanh Hóa đánh tan quân Minh xâm lược." },
+      { "year": "1428", "title": "Công bố Bình Ngô Đại Cáo", "desc": "Bản thiên cổ hùng văn khẳng định chủ quyền độc lập văn hiến lâu đời." },
+      { "year": "1460 - 1497", "title": "Kỷ nguyên Hồng Đức Thạnh Trị", "desc": "Vua Lê Thánh Tông ban hành Luật Hồng Đức và Bản đồ Hồng Đức." }
+    ],
+    "gallery": [
+      {
+        "id": "ls_01",
+        "title": "Nguyễn Trãi Viết Bình Ngô Đại Cáo",
+        "category": "Portrait",
+        "type": "Tuyên ngôn lịch sử",
+        "year": "1427",
+        "location": "Đông Quan (Hà Nội)",
+        "character": "Danh nhân Văn hóa Nguyễn Trãi",
+        "significance": "Bản thiên cổ hùng văn bất tận về độc lập dân tộc.",
+        "description": "Nguyễn Trãi miệt mài bên ngọn đèn dầu viết lên những trang sử vàng chói lọi của dân tộc.",
+        "image": "assets/images/nguyen_trai.svg",
+        "source": "Bảo tàng Văn học Việt Nam"
+      },
+      {
+        "id": "ls_02",
+        "title": "Sự Tích Trả Gươm Thần Hồ Hoàn Kiếm",
+        "category": "Artifact",
+        "type": "Truyền thuyết lịch sử",
+        "year": "1428",
+        "location": "Hồ Tả Vọng (Hồ Hoàn Kiếm, Hà Nội)",
+        "character": "Vua Lê Thái Tổ (Lê Lợi)",
+        "significance": "Khát vọng hòa bình dẹp yên binh đao của dân tộc.",
+        "description": "Vua Lê Lợi dạo thuyền trên hồ gặp Rùa Vàng ngoi lên đòi lại thanh gươm thần Thuận Thiên.",
+        "image": "assets/images/ho_hoan_kiem.svg",
+        "source": "Bảo tàng Hà Nội"
+      }
+    ]
+  },
+  {
+    "id": "tay_son",
+    "title": "Triều Tây Sơn",
+    "subtitle": "Quang Trung Nguyễn Huệ • Đại Phá Quân Thanh",
+    "period": "1778 - 1802",
+    "capital": "Quy Nhơn / Phú Xuân (Huế)",
+    "description": "Anh hùng áo vải Quang Trung Nguyễn Huệ đánh tan 5 vạn quân Xiêm tại Rạch Gầm - Xoài Mút, và thần tốc tiến quân ra Bắc đại phá 29 vạn quân Thanh mùa xuân năm Kỷ Dậu 1789.",
+    "quote": "Đánh cho lịch sử biết rằng nước Nam ta là có chủ!",
+    "quoteAuthor": "Hoàng đế Quang Trung (1789)",
+    "themeColor": "#DC143C",
+    "bgGradient": "linear-gradient(135deg, #33050b 0%, #0d0103 100%)",
+    "bgImage": "assets/images/tay_son_bg.svg",
+    "keyEvents": [
+      { "year": "1785", "title": "Trận Rạch Gầm - Xoài Mút", "desc": "Tiêu diệt 5 vạn quân Xiêm trên dòng sông Tiền trong vòng một ngày." },
+      { "year": "1789", "title": "Chiến thắng Ngọc Hồi - Đống Đa", "desc": "Hành quân thần tốc từ Phú Xuân ra Thăng Long đại phá 29 vạn quân Thanh vào mùng 5 Tết." }
+    ],
+    "gallery": [
+      {
+        "id": "ts_01",
+        "title": "Vua Quang Trung Tiến Quân Vào Thăng Long",
+        "category": "Battle",
+        "type": "Chiến thắng thần tốc",
+        "year": "Mùng 5 Tết Kỷ Dậu 1789",
+        "location": "Kinh thành Thăng Long",
+        "character": "Hoàng đế Quang Trung (Nguyễn Huệ)",
+        "significance": "Thiên tài quân sự đỉnh cao với lối đánh bất ngờ, thần tốc.",
+        "description": "Áo bào Vua Quang Trung sém đen khói súng khi ông cùng quân sĩ mừng chiến thắng tại Thăng Long.",
+        "image": "assets/images/quang_trung.svg",
+        "source": "Bảo tàng Quang Trung (Bình Định)"
+      }
+    ]
+  },
+  {
+    "id": "nha_nguyen",
+    "title": "Nhà Nguyễn",
+    "subtitle": "Quốc Hiệu Việt Nam • Di Sản Cố Đô Huế",
+    "period": "1802 - 1945",
+    "capital": "Phú Xuân - Cố đô Huế",
+    "description": "Vua Gia Long thống nhất đất nước từ Mũi Cà Mau đến Mục Nam Quan, chính thức đặt quốc hiệu VIỆT NAM năm 1804. Triều Nguyễn để lại kho tàng di sản Cố đô Huế, Nhã nhạc Cung đình và Mộc bản.",
+    "quote": "Nước Đại Việt ta nay gọi là Việt Nam - Lãnh thổ trải dài một dải gấm vóc.",
+    "quoteAuthor": "Sử triều Nguyễn (1804)",
+    "themeColor": "#FFD700",
+    "bgGradient": "linear-gradient(135deg, #2b2302 0%, #0a0800 100%)",
+    "bgImage": "assets/images/nha_nguyen_bg.svg",
+    "keyEvents": [
+      { "year": "1802", "title": "Gia Long Lên Ngôi", "desc": "Thống nhất giang sơn, đóng đô tại Cố đô Huế." },
+      { "year": "1804", "title": "Đặt Quốc Hiệu VIỆT NAM", "desc": "Chính thức lấy tên nước là Việt Nam được thế giới công nhận." },
+      { "year": "1945", "title": "Vua Bảo Đại Thoái Vị", "desc": "Trao ấn kiếm cho Chính phủ Lâm thời, kết thúc phong kiến Việt Nam." }
+    ],
+    "gallery": [
+      {
+        "id": "nn_01",
+        "title": "Ngọ Môn - Đại Nội Cố Đô Huế",
+        "category": "Architecture",
+        "type": "Di sản Văn hóa Thế giới",
+        "year": "1833",
+        "location": "Thừa Thiên Huế",
+        "character": "Vua Minh Mạng",
+        "significance": "Công trình kiến trúc đỉnh cao đại diện hoàng cung triều Nguyễn.",
+        "description": "Ngọ Môn với 5 cổng vòm và Lầu Ngũ Phụng tráng lệ nhìn ra Quảng trường Ngọ Môn.",
+        "image": "assets/images/ngo_mon_hue.svg",
+        "source": "Trung tâm Bảo tồn Di tích Cố đô Huế"
+      }
+    ]
+  },
+  {
+    "id": "chong_phap",
+    "title": "Kháng Chiến Chống Pháp",
+    "subtitle": "Chiến Thắng Điện Biên Phủ • Lừng Lẫy Năm Châu",
+    "period": "1858 - 1954",
+    "capital": "Hà Nội / Chiến khu Việt Bắc",
+    "description": "Gần một thế kỷ kiên cường đấu tranh chống thực dân Pháp. Lời kêu gọi Toàn quốc kháng chiến năm 1946 của Chủ tịch Hồ Chí Minh kết thúc bằng Chiến thắng lịch sử Điện Biên Phủ 'chấn động địa cầu' năm 1954.",
+    "quote": "Chúng ta thà sinh h sinh tất cả, chứ nhất định không chịu mất nước, nhất định không chịu làm nô lệ!",
+    "quoteAuthor": "Chủ tịch Hồ Chí Minh (1946)",
+    "themeColor": "#228B22",
+    "bgGradient": "linear-gradient(135deg, #092109 0%, #020a02 100%)",
+    "bgImage": "assets/images/chong_phap_bg.svg",
+    "keyEvents": [
+      { "year": "2/9/1945", "title": "Tuyên Ngôn Độc Lập", "desc": "Bác Hồ đọc Tuyên ngôn Độc lập tại Quảng trường Ba Đình khai sinh Nước Dân chủ Cộng hòa." },
+      { "year": "19/12/1946", "title": "Toàn Quốc Kháng Chiến", "desc": "Nhân dân cả nước đứng lên chống thực dân Pháp." },
+      { "year": "7/5/1954", "title": "Chiến thắng Điện Biên Phủ", "desc": "Lá cờ Quyết chiến Quyết thắng tung bay trên nóc hầm De Castries." }
+    ],
+    "gallery": [
+      {
+        "id": "cp_01",
+        "title": "Lá Cờ Chiến Thắng Trên Nóc Hầm De Castries",
+        "category": "Battle",
+        "type": "Kỷ niệm lịch sử",
+        "year": "7/5/1954",
+        "location": "Tập đoàn cứ điểm Điện Biên Phủ",
+        "character": "Đại tướng Võ Nguyên Giáp & Bộ đội Điện Biên",
+        "significance": "Cột mốc chấm dứt hoàn toàn ách thống trị thực dân Pháp tại Đông Dương.",
+        "description": "Bộ đội ta phất cao cờ Quyết chiến Quyết thắng trên hầm chỉ huy tướng De Castries chiều 7/5/1954.",
+        "image": "assets/images/dien_bien_phu.svg",
+        "source": "Bảo tàng Lịch sử Quân sự Việt Nam"
+      }
+    ]
+  },
+  {
+    "id": "chong_my",
+    "title": "Kháng Chiến Chống Mỹ",
+    "subtitle": "Đại Thắng Mùa Xuân 1975 • Thống Nhất Đất Nước",
+    "period": "1954 - 1975",
+    "capital": "Hà Nội",
+    "description": "Cuộc trường kỳ kháng chiến vì độc lập, tự do và thống nhất Tổ quốc. Tuyến đường Trường Sơn huyền thoại và Chiến dịch Hồ Chí Minh lịch sử giải phóng hoàn toàn miền Nam ngày 30/4/1975.",
+    "quote": "Tổ quốc ta nhất định sẽ thống nhất. Đồng bào Nam Bắc nhất định sẽ vây tụ một nhà!",
+    "quoteAuthor": "Chủ tịch Hồ Chí Minh",
+    "themeColor": "#B22222",
+    "bgGradient": "linear-gradient(135deg, #2b0707 0%, #0d0101 100%)",
+    "bgImage": "assets/images/chong_my_bg.svg",
+    "keyEvents": [
+      { "year": "1959 - 1975", "title": "Đường mòn Hồ Chí Minh", "desc": "Mạch máu giao thông huyền thoại xẻ dọc Trường Sơn đi cứu nước." },
+      { "year": "1972", "title": "Điện Biên Phủ Trên Không", "desc": "Đập tan đợt tập kích B52 của đế quốc Mỹ trên bầu trời Hà Nội." },
+      { "year": "30/4/1975", "title": "Giải Phóng Miền Nam", "desc": "Xe tăng 390 húc văng cổng Dinh Độc Lập, miền Nam hoàn toàn giải phóng." }
+    ],
+    "gallery": [
+      {
+        "id": "cm_01",
+        "title": "Xe Tăng Tiến Vào Dinh Độc Lập 30/4/1975",
+        "category": "Battle",
+        "type": "Khoảnh khắc lịch sử",
+        "year": "11h30 ngày 30/4/1975",
+        "location": "Dinh Độc Lập (TP. Hồ Chí Minh)",
+        "character": "Quân Giải phóng Miền Nam",
+        "significance": "Giờ phút lịch sử thiêng liêng thu giang sơn về một mối.",
+        "description": "Xe tăng số hiệu 390 húc văng cổng chính Dinh Độc Lập, lá cờ giải phóng tung bay trên nóc dinh.",
+        "image": "assets/images/dinh_doc_lap.svg",
+        "source": "Bảo tàng Thông tấn Xã Việt Nam"
+      }
+    ]
+  },
+  {
+    "id": "hien_dai",
+    "title": "Việt Nam Hiện Đại",
+    "subtitle": "Hội Nhập Phát Triển • Vươn Tầm Thế Giới",
+    "period": "1975 - Nay",
+    "capital": "Hà Nội",
+    "description": "Việt Nam bước vào thời kỳ Đổi Mới (1986), công nghiệp hóa, hiện đại hóa, giữ vững độc lập chủ quyền, khẳng định vị thế và vươn mình ra thế giới trong thế kỷ 21.",
+    "quote": "Đất nước ta chưa bao giờ có được cơ đồ, tiềm lực, vị thế và uy tín quốc tế như ngày nay.",
+    "quoteAuthor": "Tổng Bí thư Nguyễn Phú Trọng",
+    "themeColor": "#008080",
+    "bgGradient": "linear-gradient(135deg, #032121 0%, #000a0a 100%)",
+    "bgImage": "assets/images/hien_dai_bg.svg",
+    "keyEvents": [
+      { "year": "1986", "title": "Đại hội Đổi Mới", "desc": "Chuyển sang nền kinh tế thị trường định hướng xã hội chủ nghĩa." },
+      { "year": "1995", "title": "Hội nhập Quốc tế", "desc": "Gia nhập ASEAN, bình thường hóa quan hệ với Hoa Kỳ." },
+      { "year": "Thế kỷ 21", "title": "Kỷ nguyên Vươn mình", "desc": "Phát triển công nghệ số, kinh tế xanh và vị thế uy tín trên toàn cầu." }
+    ],
+    "gallery": [
+      {
+        "id": "hd_01",
+        "title": "Hà Nội - Thành Phố Vì Hòa Bình",
+        "category": "Architecture",
+        "type": "Đô thị hiện đại",
+        "year": "Thế kỷ XXI",
+        "location": "Thủ đô Hà Nội",
+        "character": "Nhân dân Việt Nam",
+        "significance": "Biểu tượng kết hợp giữa cổ kính ngàn năm văn hiến và hiện đại phát triển.",
+        "description": "Đường phố Hà Nội với Hồ Hoàn Kiếm, Cầu Nhật Tân lung linh ánh đèn hòa nhập cùng dòng chảy phát triển.",
+        "image": "assets/images/ha_noi_hien_dai.svg",
+        "source": "Cổng Thông tin Điện tử Chính phủ"
+      }
+    ]
+  }
+]

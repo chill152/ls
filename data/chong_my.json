@@ -1,0 +1,33 @@
+{
+  "id": "chong_my",
+  "title": "Kháng Chiến Chống Mỹ",
+  "subtitle": "Đại Thắng Mùa Xuân 1975 • Thống Nhất Đất Nước",
+  "period": "1954 - 1975",
+  "capital": "Hà Nội",
+  "description": "Cuộc trường kỳ kháng chiến vì độc lập, tự do và thống nhất Tổ quốc. Tuyến đường Trường Sơn huyền thoại và Chiến dịch Hồ Chí Minh lịch sử giải phóng hoàn toàn miền Nam ngày 30/4/1975.",
+  "quote": "Tổ quốc ta nhất định sẽ thống nhất. Đồng bào Nam Bắc nhất định sẽ vây tụ một nhà!",
+  "quoteAuthor": "Chủ tịch Hồ Chí Minh",
+  "themeColor": "#B22222",
+  "bgGradient": "linear-gradient(135deg, #2b0707 0%, #0d0101 100%)",
+  "bgImage": "assets/images/chong_my_bg.svg",
+  "keyEvents": [
+    { "year": "1959 - 1975", "title": "Đường mòn Hồ Chí Minh", "desc": "Mạch máu giao thông huyền thoại xẻ dọc Trường Sơn đi cứu nước." },
+    { "year": "1972", "title": "Điện Biên Phủ Trên Không", "desc": "Đập tan đợt tập kích B52 của đế quốc Mỹ trên bầu trời Hà Nội." },
+    { "year": "30/4/1975", "title": "Giải Phóng Miền Nam", "desc": "Xe tăng 390 húc văng cổng Dinh Độc Lập, miền Nam hoàn toàn giải phóng." }
+  ],
+  "gallery": [
+    {
+      "id": "cm_01",
+      "title": "Xe Tăng Tiến Vào Dinh Độc Lập 30/4/1975",
+      "category": "Battle",
+      "type": "Khoảnh khắc lịch sử",
+      "year": "11h30 ngày 30/4/1975",
+      "location": "Dinh Độc Lập (TP. Hồ Chí Minh)",
+      "character": "Quân Giải phóng Miền Nam",
+      "significance": "Giờ phút lịch sử thiêng liêng thu giang sơn về một mối.",
+      "description": "Xe tăng số hiệu 390 húc văng cổng chính Dinh Độc Lập, lá cờ giải phóng tung bay trên nóc dinh.",
+      "image": "assets/images/dinh_doc_lap.svg",
+      "source": "Bảo tàng Thông tấn Xã Việt Nam"
+    }
+  ]
+}

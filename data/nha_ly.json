@@ -1,0 +1,46 @@
+{
+  "id": "nha_ly",
+  "title": "Nhà Lý",
+  "subtitle": "Thăng Long Rồng Bay • Nam Quốc Sơn Hà",
+  "period": "1009 - 1225",
+  "capital": "Thăng Long (Hà Nội)",
+  "description": "Lý Thái Tổ dời đô từ Hoa Lư về Thăng Long năm 1010. Triều Lý phát triển rực rỡ văn hóa Phật giáo, xây dựng Văn Miếu Quốc Tử Giám, và bài thơ thần 'Nam Quốc Sơn Hà' của Lý Thường Kiệt.",
+  "quote": "Nam quốc sơn hà Nam đế cư - Tiệt nhiên định phận tại thiên thư.",
+  "quoteAuthor": "Thái úy Lý Thường Kiệt (1077)",
+  "themeColor": "#FFD700",
+  "bgGradient": "linear-gradient(135deg, #2b2203 0%, #0d0a01 100%)",
+  "bgImage": "assets/images/nha_ly_bg.svg",
+  "keyEvents": [
+    { "year": "1010", "title": "Chiếu Dời Đô về Thăng Long", "desc": "Lý Thái Tổ nhìn thấy rồng vàng bay lên tại Đại La, quyết định dời đô lập nên Thăng Long." },
+    { "year": "1070", "title": "Thành lập Văn Miếu", "desc": "Xây dựng Văn Miếu Quốc Tử Giám - Trường đại học đầu tiên của Việt Nam." },
+    { "year": "1077", "title": "Phòng tuyến Sông Như Nguyệt", "desc": "Lý Thường Kiệt đánh tan 30 vạn quân Tống, âm vang bài thơ Nam Quốc Sơn Hà." }
+  ],
+  "gallery": [
+    {
+      "id": "nl_01",
+      "title": "Lý Thái Tổ Viết Chiếu Dời Đô",
+      "category": "Portrait",
+      "type": "Văn bản lịch sử",
+      "year": "1010",
+      "location": "Thăng Long",
+      "character": "Lý Thái Tổ (Lý Công Uẩn)",
+      "significance": "Tầm nhìn thiên tài định đô ngàn năm cho đất nước.",
+      "description": "Lý Thái Tổ ngắm dải đất Đại La tụ khí rồng chầu hổ phục quyết định dời kinh đô.",
+      "image": "assets/images/chieu_doi_do.svg",
+      "source": "Văn Miếu Thăng Long"
+    },
+    {
+      "id": "nl_02",
+      "title": "Văn Miếu Quốc Tử Giám",
+      "category": "Architecture",
+      "type": "Di tích quốc gia",
+      "year": "1070",
+      "location": "Đống Đa, Hà Nội",
+      "character": "Vua Lý Thánh Tông",
+      "significance": "Biểu tượng tinh hoa trí tuệ và truyền thống hiếu học Việt Nam.",
+      "description": "Khu di tích Văn Miếu Quốc Tử Giám với Khuê Văn Các và Biển bia Tiến sĩ ngàn năm.",
+      "image": "assets/images/van_mieu.svg",
+      "source": "Bảo tàng Hà Nội"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "id": "tien_le",
+  "title": "Nhà Tiền Lê",
+  "subtitle": "Lê Đại Hành • Phá Tống Bình Chiêm",
+  "period": "980 - 1009",
+  "capital": "Hoa Lư (Ninh Bình)",
+  "description": "Lê Hoàn được Thái hậu Dương Vân Nga trao áo long bào lên ngôi Hoàng đế. Ông trực tiếp cầm quân phá tan đại quân Tống trên sông Bạch Đằng 981, giữ vững nền độc lập.",
+  "quote": "Dương Thái hậu vì nước gạt tình riêng - Trao long bào dựng nghiệp Tiền Lê.",
+  "quoteAuthor": "Đại Việt Sử Ký",
+  "themeColor": "#C0C0C0",
+  "bgGradient": "linear-gradient(135deg, #1f2024 0%, #0a0b0d 100%)",
+  "bgImage": "assets/images/tien_le_bg.svg",
+  "keyEvents": [
+    { "year": "980", "title": "Dương Vân Nga trao Long Bào", "desc": "Thái hậu Dương Vân Nga vì vận nước trao hoàng bào cho Thập đạo Tướng quân Lê Hoàn." },
+    { "year": "981", "title": "Đại thắng quân Tống", "desc": "Lê Hoàn đánh bại quân Tống tại Chi Lăng và Sông Bạch Đằng." }
+  ],
+  "gallery": [
+    {
+      "id": "tl_01",
+      "title": "Thái Hậu Dương Vân Nga Trao Áo Long Bào",
+      "category": "Portrait",
+      "type": "Nghệ thuật lịch sử",
+      "year": "980",
+      "location": "Kinh thành Hoa Lư",
+      "character": "Dương Vân Nga & Lê Hoàn",
+      "significance": "Quyết định lịch sử hy sinh quyền lợi dòng họ vì sự tồn vong của đất nước.",
+      "description": "Bức tranh tái hiện khoảnh khắc Dương Thái hậu trao áo rồng cho Lê Hoàn chuẩn bị ra trận.",
+      "image": "assets/images/long_bao.svg",
+      "source": "Bảo tàng Lịch sử"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="100%" height="100%">
+  <rect width="800" height="600" fill="#33050b" rx="16"/>
+  <circle cx="400" cy="240" r="110" fill="none" stroke="#DC143C" stroke-width="4"/>
+  <polygon points="400,150 430,225 500,225 445,265 465,335 400,295 335,335 355,265 300,225 370,225" fill="#DC143C"/>
+  <text x="400" y="440" text-anchor="middle" fill="#FFFFFF" font-family="'Cinzel', serif" font-size="28" font-weight="bold">Vua Quang Trung Tiến Quân</text>
+  <text x="400" y="480" text-anchor="middle" fill="#EF9A9A" font-family="'Be Vietnam Pro', sans-serif" font-size="16">Đại Phá 29 Vạn Quân Thanh 1789</text>
+</svg>

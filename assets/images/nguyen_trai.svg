@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="100%" height="100%">
+  <rect width="800" height="600" fill="#2b0c03" rx="16"/>
+  <rect x="250" y="140" width="300" height="180" fill="#FFF3E0" stroke="#FF5722" stroke-width="4" rx="8"/>
+  <line x1="280" y1="180" x2="520" y2="180" stroke="#BF360C" stroke-width="4"/>
+  <line x1="280" y1="220" x2="520" y2="220" stroke="#BF360C" stroke-width="3"/>
+  <text x="400" y="440" text-anchor="middle" fill="#FFFFFF" font-family="'Cinzel', serif" font-size="28" font-weight="bold">Nguyễn Trãi Viết Bình Ngô Đại Cáo</text>
+  <text x="400" y="480" text-anchor="middle" fill="#FFAB91" font-family="'Be Vietnam Pro', sans-serif" font-size="16">Bản Tuyên Ngôn Độc Lập Thứ Hai</text>
+</svg>

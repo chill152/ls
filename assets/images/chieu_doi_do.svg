@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="100%" height="100%">
+  <rect width="800" height="600" fill="#2b2203" rx="16"/>
+  <rect x="250" y="130" width="300" height="200" fill="#FFF8E1" stroke="#D4AF37" stroke-width="6" rx="8"/>
+  <line x1="280" y1="170" x2="520" y2="170" stroke="#8D6E63" stroke-width="4"/>
+  <line x1="280" y1="210" x2="520" y2="210" stroke="#8D6E63" stroke-width="3"/>
+  <line x1="280" y1="250" x2="480" y2="250" stroke="#8D6E63" stroke-width="3"/>
+  <text x="400" y="440" text-anchor="middle" fill="#FFFFFF" font-family="'Cinzel', serif" font-size="30" font-weight="bold">Chiếu Dời Đô 1010</text>
+  <text x="400" y="480" text-anchor="middle" fill="#FFE082" font-family="'Be Vietnam Pro', sans-serif" font-size="16">Lý Thái Tổ Định Đô Thăng Long</text>
+</svg>

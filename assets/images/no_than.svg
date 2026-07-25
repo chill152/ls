@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="100%" height="100%">
+  <rect width="800" height="600" fill="#1c1109" rx="16"/>
+  <path d="M 250 280 Q 400 120 550 280" fill="none" stroke="#FF9800" stroke-width="8"/>
+  <line x1="250" y1="280" x2="550" y2="280" stroke="#FFFFFF" stroke-width="2"/>
+  <line x1="400" y1="200" x2="400" y2="340" stroke="#CD7F32" stroke-width="6"/>
+  <polygon points="400,180 390,210 410,210" fill="#D4AF37"/>
+  <text x="400" y="440" text-anchor="middle" fill="#FFFFFF" font-family="'Cinzel', serif" font-size="30" font-weight="bold">Nỏ Thần Liên Châu</text>
+  <text x="400" y="480" text-anchor="middle" fill="#FF9800" font-family="'Be Vietnam Pro', sans-serif" font-size="16">Vũ Khí Kỳ Tích Cao Lỗ</text>
+</svg>

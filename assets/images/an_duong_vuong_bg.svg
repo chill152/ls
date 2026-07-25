@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1c1109"/>
+      <stop offset="100%" stop-color="#0a0603"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#CD7F32" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#0a0603" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1920" height="1080" fill="url(#bgGrad)"/>
+  <circle cx="960" cy="540" r="600" fill="url(#glow)"/>
+  <circle cx="960" cy="540" r="450" fill="none" stroke="#CD7F32" stroke-width="1.5" stroke-dasharray="10 15" opacity="0.4"/>
+  <text x="960" y="560" text-anchor="middle" fill="#CD7F32" font-family="'Cinzel', serif" font-size="54" letter-spacing="10" opacity="0.2">THỤC PHÀN - AN DƯƠNG VƯƠNG</text>
+</svg>

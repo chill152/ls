@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="100%" height="100%">
+  <defs>
+    <radialGradient id="drumGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FFD700" stop-opacity="0.8"/>
+      <stop offset="40%" stop-color="#DAA520" stop-opacity="0.5"/>
+      <stop offset="80%" stop-color="#B8860B" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="bronzeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E6C280"/>
+      <stop offset="30%" stop-color="#CD7F32"/>
+      <stop offset="70%" stop-color="#8B5A2B"/>
+      <stop offset="100%" stop-color="#3E2723"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="10" stdDeviation="15" flood-color="#000000" flood-opacity="0.8"/>
+    </filter>
+  </defs>
+
+  <rect width="800" height="800" fill="#0c0906" rx="20"/>
+  <circle cx="400" cy="400" r="360" fill="url(#drumGlow)"/>
+
+  <!-- Outer Ring -->
+  <g filter="url(#shadow)">
+    <circle cx="400" cy="400" r="320" fill="none" stroke="url(#bronzeGrad)" stroke-width="18"/>
+    <circle cx="400" cy="400" r="300" fill="none" stroke="#D4AF37" stroke-width="4" stroke-dasharray="8 6"/>
+    <circle cx="400" cy="400" r="280" fill="none" stroke="url(#bronzeGrad)" stroke-width="12"/>
+    <circle cx="400" cy="400" r="250" fill="none" stroke="#CD7F32" stroke-width="6"/>
+
+    <!-- Concentric Decorative Circles & Birds -->
+    <g fill="none" stroke="#FFD700" stroke-width="2.5" opacity="0.9">
+      <!-- Lac Birds Circle -->
+      <circle cx="400" cy="400" r="220" stroke-dasharray="14 10"/>
+      <!-- Radiating Sun Star -->
+      <polygon points="400,240 415,360 480,320 425,385 560,400 425,415 480,480 415,440 400,560 385,440 320,480 375,415 240,400 375,385 320,320 385,360" fill="#FFD700" opacity="0.9"/>
+    </g>
+
+    <!-- Center Sun Core -->
+    <circle cx="400" cy="400" r="60" fill="url(#bronzeGrad)" stroke="#FFD700" stroke-width="4"/>
+    <circle cx="400" cy="400" r="30" fill="#FFD700"/>
+
+    <!-- Flying Lac Bird Silhouettes in Ring -->
+    <g fill="#FFD700" opacity="0.85">
+      <!-- 4 Flying Birds -->
+      <path d="M 400 160 Q 420 150 440 165 Q 425 175 400 160 Z" transform="rotate(0 400 400)"/>
+      <path d="M 400 160 Q 420 150 440 165 Q 425 175 400 160 Z" transform="rotate(45 400 400)"/>
+      <path d="M 400 160 Q 420 150 440 165 Q 425 175 400 160 Z" transform="rotate(90 400 400)"/>
+      <path d="M 400 160 Q 420 150 440 165 Q 425 175 400 160 Z" transform="rotate(135 400 400)"/>
+      <path d="M 400 160 Q 420 150 440 165 Q 425 175 400 160 Z" transform="rotate(180 400 400)"/>
+      <path d="M 400 160 Q 420 150 440 165 Q 425 175 400 160 Z" transform="rotate(225 400 400)"/>
+      <path d="M 400 160 Q 420 150 440 165 Q 425 175 400 160 Z" transform="rotate(270 400 400)"/>
+      <path d="M 400 160 Q 420 150 440 165 Q 425 175 400 160 Z" transform="rotate(315 400 400)"/>
+    </g>
+  </g>
+
+  <!-- Golden Text -->
+  <text x="400" y="740" text-anchor="middle" fill="#D4AF37" font-family="'Cinzel', serif" font-size="28" letter-spacing="6" font-weight="bold">TRỐNG ĐỒNG ĐÔNG SƠN</text>
+  <text x="400" y="770" text-anchor="middle" fill="#A0A0A0" font-family="'Be Vietnam Pro', sans-serif" font-size="14" letter-spacing="2">BẢO VẬT QUỐC GIA VĂN LANG</text>
+</svg>

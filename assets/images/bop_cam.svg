@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="100%" height="100%">
+  <rect width="800" height="600" fill="#300404" rx="16"/>
+  <circle cx="400" cy="230" r="70" fill="#FF9800" stroke="#FF5722" stroke-width="4"/>
+  <path d="M 360 210 Q 400 170 440 210 Q 400 290 360 210 Z" fill="#E65100"/>
+  <text x="400" y="440" text-anchor="middle" fill="#FFFFFF" font-family="'Cinzel', serif" font-size="28" font-weight="bold">Trần Quốc Toản Bóp Nát Quả Cam</text>
+  <text x="400" y="480" text-anchor="middle" fill="#FFCC80" font-family="'Be Vietnam Pro', sans-serif" font-size="16">Bến Bình Than 1282</text>
+</svg>

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="100%" height="100%">
+  <rect width="800" height="600" fill="#2b0c03" rx="16"/>
+  <!-- Golden Turtle holding sword -->
+  <ellipse cx="400" cy="240" rx="90" ry="60" fill="#4CAF50" stroke="#FFD700" stroke-width="4"/>
+  <line x1="380" y1="210" x2="480" y2="150" stroke="#FFD700" stroke-width="6"/>
+  <text x="400" y="440" text-anchor="middle" fill="#FFFFFF" font-family="'Cinzel', serif" font-size="28" font-weight="bold">Trả Gươm Thần Hồ Hoàn Kiếm</text>
+  <text x="400" y="480" text-anchor="middle" fill="#81C784" font-family="'Be Vietnam Pro', sans-serif" font-size="16">Lê Lợi & Rùa Vàng</text>
+</svg>

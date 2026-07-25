@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="100%" height="100%">
+  <rect width="800" height="600" fill="#092109" rx="16"/>
+  <!-- Victory Flag -->
+  <line x1="300" y1="300" x2="300" y2="120" stroke="#FFFFFF" stroke-width="6"/>
+  <polygon points="300,120 480,160 300,200" fill="#DA1B1B"/>
+  <polygon points="360,150 370,165 385,165 372,175 377,190 360,180 343,190 348,175 335,165 350,165" fill="#FFD700"/>
+  <text x="400" y="440" text-anchor="middle" fill="#FFFFFF" font-family="'Cinzel', serif" font-size="28" font-weight="bold">Chiến Thắng Điện Biên Phủ</text>
+  <text x="400" y="480" text-anchor="middle" fill="#A5D6A7" font-family="'Be Vietnam Pro', sans-serif" font-size="16">Cờ Victory Trên Nóc Hầm De Castries 7/5/1954</text>
+</svg>

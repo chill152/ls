@@ -1,0 +1,112 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 1000" width="100%" height="100%">
+  <defs>
+    <linearGradient id="mapGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E65100"/>
+      <stop offset="50%" stop-color="#C62828"/>
+      <stop offset="100%" stop-color="#8E24AA"/>
+    </linearGradient>
+    <filter id="mapGlow">
+      <feGaussianBlur stdDeviation="6" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="600" height="1000" fill="#08080c" rx="16"/>
+
+  <!-- Grid Lines -->
+  <g stroke="#1a1a2e" stroke-width="1" opacity="0.4">
+    <line x1="50" y1="0" x2="50" y2="1000"/>
+    <line x1="150" y1="0" x2="150" y2="1000"/>
+    <line x1="250" y1="0" x2="250" y2="1000"/>
+    <line x1="350" y1="0" x2="350" y2="1000"/>
+    <line x1="450" y1="0" x2="450" y2="1000"/>
+    <line x1="550" y1="0" x2="550" y2="1000"/>
+    <line x1="0" y1="200" x2="600" y2="200"/>
+    <line x1="0" y1="400" x2="600" y2="400"/>
+    <line x1="0" y1="600" x2="600" y2="600"/>
+    <line x1="0" y1="800" x2="600" y2="800"/>
+  </g>
+
+  <!-- Vietnam Mainland S-Shape Path -->
+  <g filter="url(#mapGlow)">
+    <path d="M 210,120 
+             C 240,110 280,125 320,130 
+             C 360,135 410,160 415,195 
+             C 420,230 380,260 340,270 
+             C 310,280 290,320 280,360 
+             C 270,400 310,450 330,490 
+             C 350,530 380,570 385,620 
+             C 390,670 370,720 340,760 
+             C 310,800 250,830 220,860 
+             C 190,880 150,860 170,820 
+             C 185,790 220,770 230,730 
+             C 240,690 230,640 220,600 
+             C 210,560 190,520 210,480 
+             C 230,440 220,380 200,340 
+             C 180,300 160,250 175,200 
+             C 190,160 195,130 210,120 Z" 
+          fill="url(#mapGradient)" stroke="#FFD700" stroke-width="3" opacity="0.9"/>
+  </g>
+
+  <!-- Islands (Hoàng Sa & Trường Sa) -->
+  <g fill="#FFD700" stroke="#FF4500" stroke-width="1.5">
+    <!-- Hoàng Sa -->
+    <g transform="translate(460, 420)">
+      <circle cx="0" cy="0" r="6" fill="#FFD700"/>
+      <circle cx="15" cy="8" r="4"/>
+      <circle cx="-10" cy="12" r="5"/>
+      <text x="25" y="5" fill="#FFD700" font-family="'Be Vietnam Pro', sans-serif" font-size="12" font-weight="bold">Quần đảo Hoàng Sa</text>
+    </g>
+
+    <!-- Trường Sa -->
+    <g transform="translate(480, 700)">
+      <circle cx="0" cy="0" r="6" fill="#FFD700"/>
+      <circle cx="20" cy="-10" r="4"/>
+      <circle cx="15" cy="15" r="5"/>
+      <circle cx="-15" cy="20" r="4"/>
+      <text x="30" y="5" fill="#FFD700" font-family="'Be Vietnam Pro', sans-serif" font-size="12" font-weight="bold">Quần đảo Trường Sa</text>
+    </g>
+  </g>
+
+  <!-- Key Historic Capital Markers -->
+  <!-- Thăng Long / Hà Nội -->
+  <g transform="translate(320, 200)">
+    <circle cx="0" cy="0" r="10" fill="#FFD700" stroke="#8B0000" stroke-width="3"/>
+    <circle cx="0" cy="0" r="4" fill="#8B0000"/>
+    <text x="18" y="5" fill="#FFD700" font-family="'Cinzel', serif" font-size="14" font-weight="bold">Thăng Long - Hà Nội</text>
+  </g>
+
+  <!-- Hoa Lư -->
+  <g transform="translate(310, 245)">
+    <circle cx="0" cy="0" r="7" fill="#CD7F32" stroke="#FFD700" stroke-width="2"/>
+    <text x="-75" y="4" fill="#E0E0E0" font-family="'Be Vietnam Pro', sans-serif" font-size="12">Hoa Lư</text>
+  </g>
+
+  <!-- Phú Xuân - Huế -->
+  <g transform="translate(330, 480)">
+    <circle cx="0" cy="0" r="8" fill="#FF4500" stroke="#FFD700" stroke-width="2"/>
+    <text x="16" y="4" fill="#FFD700" font-family="'Cinzel', serif" font-size="13" font-weight="bold">Phú Xuân - Huế</text>
+  </g>
+
+  <!-- TP. Hồ Chí Minh -->
+  <g transform="translate(230, 780)">
+    <circle cx="0" cy="0" r="8" fill="#008080" stroke="#FFD700" stroke-width="2"/>
+    <text x="16" y="4" fill="#00E5FF" font-family="'Be Vietnam Pro', sans-serif" font-size="13" font-weight="bold">TP. Hồ Chí Minh</text>
+  </g>
+
+  <!-- Compass Rose -->
+  <g transform="translate(90, 880)">
+    <circle cx="0" cy="0" r="35" fill="none" stroke="#D4AF37" stroke-width="1.5" stroke-dasharray="4 3"/>
+    <polygon points="0,-40 6,-8 0,0 -6,-8" fill="#FFD700"/>
+    <polygon points="0,40 6,8 0,0 -6,8" fill="#A0A0A0"/>
+    <polygon points="40,0 8,6 0,0 8,-6" fill="#A0A0A0"/>
+    <polygon points="-40,0 -8,6 0,0 -8,-6" fill="#A0A0A0"/>
+    <text x="0" y="-45" text-anchor="middle" fill="#FFD700" font-size="12" font-weight="bold">B</text>
+  </g>
+
+  <text x="300" y="50" text-anchor="middle" fill="#FFD700" font-family="'Cinzel', serif" font-size="24" letter-spacing="4" font-weight="bold">BẢN ĐỒ LỊCH SỬ VIỆT NAM</text>
+  <text x="300" y="80" text-anchor="middle" fill="#A0A0A0" font-family="'Be Vietnam Pro', sans-serif" font-size="13" letter-spacing="2">LÃNH THỔ GẤM VÓC THỐNG NHẤT</text>
+</svg>

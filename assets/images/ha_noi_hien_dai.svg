@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="100%" height="100%">
+  <rect width="800" height="600" fill="#032121" rx="16"/>
+  <!-- Modern Skyline & Bridge -->
+  <polygon points="200,320 250,140 300,320" fill="#008080" opacity="0.6"/>
+  <polygon points="350,320 400,100 450,320" fill="#00ACC1" opacity="0.8"/>
+  <polygon points="500,320 550,180 600,320" fill="#008080" opacity="0.6"/>
+  <line x1="150" y1="320" x2="650" y2="320" stroke="#00E5FF" stroke-width="4"/>
+  <text x="400" y="440" text-anchor="middle" fill="#FFFFFF" font-family="'Cinzel', serif" font-size="28" font-weight="bold">Hà Nội - Thành Phố Vì Hòa Bình</text>
+  <text x="400" y="480" text-anchor="middle" fill="#80DEEA" font-family="'Be Vietnam Pro', sans-serif" font-size="16">Việt Nam Hội Nhập & Vươn Tầm Thế Giới</text>
+</svg>

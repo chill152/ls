@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="100%" height="100%">
+  <rect width="800" height="600" fill="#2b0606" rx="16"/>
+  <!-- Wooden stakes in river -->
+  <polygon points="250,320 270,180 290,320" fill="#CD7F32"/>
+  <polygon points="380,340 400,160 420,340" fill="#8B4513"/>
+  <polygon points="510,320 530,200 550,320" fill="#CD7F32"/>
+  <path d="M 150 320 Q 400 360 650 320 L 650 380 L 150 380 Z" fill="#00BCD4" opacity="0.4"/>
+  <text x="400" y="440" text-anchor="middle" fill="#FFFFFF" font-family="'Cinzel', serif" font-size="30" font-weight="bold">Trận Thủy Chiến Bạch Đằng 938</text>
+  <text x="400" y="480" text-anchor="middle" fill="#80DEEA" font-family="'Be Vietnam Pro', sans-serif" font-size="16">Ngô Quyền Đập Tan Quân Nam Hán</text>
+</svg>

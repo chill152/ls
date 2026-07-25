@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="100%" height="100%">
+  <rect width="800" height="600" fill="#291e03" rx="16"/>
+  <circle cx="400" cy="240" r="110" fill="none" stroke="#FFEB3B" stroke-width="4"/>
+  <path d="M 370 300 Q 400 120 430 300" fill="none" stroke="#FFF59D" stroke-width="6"/>
+  <text x="400" y="440" text-anchor="middle" fill="#FFFFFF" font-family="'Cinzel', serif" font-size="30" font-weight="bold">Đinh Bộ Lĩnh Tập Trận Cờ Lau</text>
+  <text x="400" y="480" text-anchor="middle" fill="#FFF59D" font-family="'Be Vietnam Pro', sans-serif" font-size="16">Cờ Lau Dẹp Loạn 12 Sứ Quân</text>
+</svg>

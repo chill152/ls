@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#240c0c"/>
+      <stop offset="100%" stop-color="#0f0404"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#A52A2A" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#0f0404" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1920" height="1080" fill="url(#bgGrad)"/>
+  <circle cx="960" cy="540" r="600" fill="url(#glow)"/>
+  <text x="960" y="560" text-anchor="middle" fill="#A52A2A" font-family="'Cinzel', serif" font-size="54" letter-spacing="10" opacity="0.2">1000 NĂM BẮC THUỘC</text>
+</svg>

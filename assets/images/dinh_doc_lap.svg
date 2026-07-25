@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="100%" height="100%">
+  <rect width="800" height="600" fill="#2b0707" rx="16"/>
+  <!-- Tank 390 entering Dinh Độc Lập -->
+  <rect x="250" y="240" width="280" height="80" fill="#388E3C" stroke="#1B5E20" stroke-width="4" rx="12"/>
+  <circle cx="300" cy="320" r="20" fill="#212121"/>
+  <circle cx="360" cy="320" r="20" fill="#212121"/>
+  <circle cx="420" cy="320" r="20" fill="#212121"/>
+  <circle cx="480" cy="320" r="20" fill="#212121"/>
+  <line x1="450" y1="260" x2="600" y2="230" stroke="#1B5E20" stroke-width="8"/>
+  <text x="400" y="440" text-anchor="middle" fill="#FFFFFF" font-family="'Cinzel', serif" font-size="28" font-weight="bold">Xe Tăng Tiến Vào Dinh Độc Lập</text>
+  <text x="400" y="480" text-anchor="middle" fill="#EF9A9A" font-family="'Be Vietnam Pro', sans-serif" font-size="16">Giải Phóng Miền Nam 30/4/1975</text>
+</svg>

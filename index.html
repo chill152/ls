@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lịch Sử Việt Nam Qua Các Thời Kỳ | Bảo Tàng Số Điện Ảnh</title>
+  <meta name="description" content="Khám phá 4000 năm Lịch sử Việt Nam qua trải nghiệm điện ảnh tương tác 3D, cuộn mượt GSAP, bản đồ lịch sử và bảo tàng di sản nghệ thuật độc đáo.">
+  <meta name="keywords" content="Lịch sử Việt Nam, Hùng Vương, Ngô Quyền, Nhà Trần, Lê Lợi, Quang Trung, Điện Biên Phủ, Bảo tàng số, GSAP, Interactive Storytelling">
+  <meta name="author" content="Lịch Sử Việt Nam Interactive Team">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://lichsuvietnam.github.io/">
+  <meta property="og:title" content="Lịch Sử Việt Nam Qua Các Thời Kỳ | Interactive Storytelling">
+  <meta property="og:description" content="Hành trình điện ảnh cuộn tương tác 4000 năm văn hiến và hào khí dân tộc Việt Nam.">
+  <meta property="og:image" content="assets/images/trong_dong.svg">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Lịch Sử Việt Nam Qua Các Thời Kỳ">
+  <meta name="twitter:description" content="Bảo tàng số tương tác đỉnh cao về lịch sử dựng nước và giữ nước của dân tộc Việt Nam.">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Cinzel:wght@600;700;800;900&family=Playfair+Display:ital,wght@0,600;0,700;1,400&display=swap" rel="stylesheet">
+
+  <!-- Lenis CSS & Stylesheet -->
+  <link rel="stylesheet" href="https://unpkg.com/lenis@1.1.9/dist/lenis.css">
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Structured Data JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "EducationalObject",
+    "name": "Lịch Sử Việt Nam Qua Các Thời Kỳ",
+    "description": "Website tương tác kể chuyện điện ảnh về 15 thời kỳ lịch sử Việt Nam.",
+    "educationalUse": "Museum Learning & Interactive History",
+    "inLanguage": "vi"
+  }
+  </script>
+</head>
+<body class="theme-dark">
+
+  <!-- Ambient Sound Synth Engine & Audio Element Placeholder -->
+  <audio id="ambient-audio" loop preload="auto"></audio>
+
+  <!-- Background Canvas for Particles, Fog & Dong Son Rings -->
+  <canvas id="hero-canvas"></canvas>
+  <div class="vintage-texture-overlay"></div>
+
+  <!-- Top Control Navigation Bar -->
+  <header class="top-nav" id="top-nav">
+    <div class="nav-left">
+      <a href="#hero" class="brand-logo" aria-label="Trang chủ">
+        <svg class="logo-icon" viewBox="0 0 100 100" width="36" height="36">
+          <circle cx="50" cy="50" r="45" fill="none" stroke="#D4AF37" stroke-width="4"/>
+          <polygon points="50,15 58,40 85,42 62,60 70,85 50,70 30,85 38,60 15,42 42,40" fill="#D4AF37"/>
+        </svg>
+        <span class="brand-title">LỊCH SỬ VIỆT NAM</span>
+      </a>
+    </div>
+
+    <nav class="nav-center" aria-label="Điều hướng chính">
+      <a href="#hero" class="nav-link active">Trang Chủ</a>
+      <a href="#vietnam-map" class="nav-link">Bản Đồ</a>
+      <a href="#timeline-journey" class="nav-link">Hành Trình</a>
+      <button class="nav-btn" id="btn-open-gallery" aria-label="Mở thư viện ảnh">Thư Viện Ảnh</button>
+      <button class="nav-btn" id="btn-open-search" aria-label="Tìm kiếm lịch sử">Tìm Kiếm</button>
+    </nav>
+
+    <div class="nav-right">
+      <button class="icon-btn" id="btn-audio-toggle" title="Bật/Tắt Âm thanh Trống Đồng" aria-label="Âm thanh">
+        <svg class="icon-sound-on" viewBox="0 0 24 24" width="22" height="22" fill="currentColor">
+          <path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3c0-1.77-1.02-3.29-2.5-4.03v8.05c1.48-.73 2.5-2.25 2.5-4.02zM14 3.23v2.06c2.89.86 5 3.54 5 6.71s-2.11 5.85-5 6.71v2.06c4.01-.91 7-4.49 7-8.77s-2.99-7.86-7-8.77z"/>
+        </svg>
+        <svg class="icon-sound-off hidden" viewBox="0 0 24 24" width="22" height="22" fill="currentColor">
+          <path d="M16.5 12c0-1.77-1.02-3.29-2.5-4.03v2.21l2.45 2.45c.03-.2.05-.41.05-.63zm2.5 0c0 .94-.2 1.82-.54 2.64l1.51 1.51C20.63 14.91 21 13.5 21 12c0-4.28-2.99-7.86-7-8.77v2.06c2.89.86 5 3.54 5 6.71zM4.27 3L3 4.27 7.73 9H3v6h4l5 5v-6.73l4.25 4.25c-.67.52-1.42.93-2.25 1.18v2.06c1.38-.31 2.63-.95 3.69-1.81L19.73 21 21 19.73l-9-9L4.27 3zM12 4L9.91 6.09 12 8.18V4z"/>
+        </svg>
+        <span class="audio-label">Âm Thanh</span>
+      </button>
+
+      <button class="icon-btn" id="btn-theme-toggle" title="Chuyển Chế Độ Đen/Giấy Cổ" aria-label="Giao diện">
+        <svg class="icon-moon" viewBox="0 0 24 24" width="20" height="20" fill="currentColor">
+          <path d="M12 3c-4.97 0-9 4.03-9 9s4.03 9 9 9 9-4.03 9-9c0-.46-.04-.92-.1-1.36-1.11.83-2.48 1.36-3.9 1.36-3.87 0-7-3.13-7-7 0-1.42.53-2.79 1.36-3.9C12.92 3.04 12.46 3 12 3z"/>
+        </svg>
+        <svg class="icon-sun hidden" viewBox="0 0 24 24" width="20" height="20" fill="currentColor">
+          <path d="M12 7c-2.76 0-5 2.24-5 5s2.24 5 5 5 5-2.24 5-5-2.24-5-5-5zM2 13h2c.55 0 1-.45 1-1s-.45-1-1-1H2c-.55 0-1 .45-1 1s.45 1 1 1zm18 0h2c.55 0 1-.45 1-1s-.45-1-1-1h-2c-.55 0-1 .45-1 1s.45 1 1 1zM11 2v2c0 .55.45 1 1 1s1-.45 1-1V2c0-.55-.45-1-1-1s-1 .45-1 1zm0 18v2c0 .55.45 1 1 1s1-.45 1-1v-2c0-.55-.45-1-1-1s-1 .45-1 1zM5.99 4.58c-.39-.39-1.03-.39-1.41 0s-.39 1.03 0 1.41l1.06 1.06c.39.39 1.03.39 1.41 0s.39-1.03 0-1.41L5.99 4.58zm12.37 12.37c-.39-.39-1.03-.39-1.41 0s-.39 1.03 0 1.41l1.06 1.06c.39.39 1.03.39 1.41 0s.39-1.03 0-1.41l-1.06-1.06zM7.05 16.95l-1.06 1.06c-.39.39-.39 1.03 0 1.41s1.03.39 1.41 0l1.06-1.06c.39-.39.39-1.03 0-1.41s-1.02-.39-1.41 0zm12.37-12.37l-1.06 1.06c-.39.39-.39 1.03 0 1.41s1.03.39 1.41 0l1.06-1.06c.39-.39.39-1.03 0-1.41s-1.03-.39-1.41 0z"/>
+        </svg>
+      </button>
+    </div>
+  </header>
+
+  <!-- Left Sticky Interactive Sidebar Timeline -->
+  <aside class="sidebar-timeline" id="sidebar-timeline" aria-label="Thanh thời gian">
+    <div class="timeline-track">
+      <div class="timeline-progress-bar" id="timeline-progress-bar"></div>
+    </div>
+    <ul class="timeline-nodes-list" id="timeline-nodes-list">
+      <!-- Generated via JS -->
+    </ul>
+  </aside>
+
+  <!-- Main Scrollable Journey Wrapper -->
+  <main class="main-wrapper" id="main-wrapper">
+
+    <!-- Section 1: Hero Opening Cinematic -->
+    <section class="hero-section" id="hero">
+      <div class="hero-content">
+        <div class="hero-badge">
+          <span class="pulse-dot"></span> BẢO TÀNG SỐ ĐIỆN ẢNH VIỆT NAM
+        </div>
+        <h1 class="hero-title" id="hero-title">
+          <span class="line-1">LỊCH SỬ VIỆT NAM</span>
+          <span class="line-2">QUA CÁC THỜI KỲ</span>
+        </h1>
+        <p class="hero-subtitle">
+          Hành trình điện ảnh 4000 năm dựng nước, giữ nước và phát triển văn hiến rực rỡ của dân tộc Việt Nam.
+        </p>
+
+        <div class="hero-actions">
+          <a href="#vietnam-map" class="btn-primary" id="btn-start-journey">
+            <span>KHÁM PHÁ HÀNH TRÌNH</span>
+            <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor">
+              <path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"/>
+            </svg>
+          </a>
+        </div>
+      </div>
+
+      <div class="scroll-indicator" id="scroll-indicator">
+        <span class="scroll-text">LĂN CHUỘT XUỐNG ĐỂ KHÁM PHÁ</span>
+        <div class="mouse-icon">
+          <div class="wheel"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 2: Interactive Map of Vietnam -->
+    <section class="map-section" id="vietnam-map">
+      <div class="map-container-inner">
+        <div class="map-text-block">
+          <span class="section-tag">LÃNH THỔ GẤM VÓC</span>
+          <h2 class="section-title">BẢN ĐỒ LỊCH SỬ VIỆT NAM</h2>
+          <p class="section-desc">
+            Từ sông Hồng tới Mũi Cà Mau, Hoàng Sa & Trường Sa - vùng đất thiêng liêng đơm hoa qua hàng nghìn năm chống ngoại xâm và bảo vệ cội nguồn.
+          </p>
+          <div class="map-stats">
+            <div class="stat-item">
+              <span class="stat-num">4000+</span>
+              <span class="stat-label">Năm Văn Hiến</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-num">15</span>
+              <span class="stat-label">Thời Kỳ Lịch Sử</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-num">100+</span>
+              <span class="stat-label">Di Tích & Bảo Vật</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="map-svg-wrapper">
+          <img src="assets/images/vietnam_map.svg" alt="Bản đồ Lịch sử Việt Nam" class="map-svg-graphic" id="interactive-map-graphic">
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 3: Eras Timeline Experience (15 Eras dynamically populated) -->
+    <section class="timeline-journey-section" id="timeline-journey">
+      <div class="eras-container" id="eras-container">
+        <!-- Dynically rendered era slides -->
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Fullscreen Image Detail Modal -->
+  <dialog class="modal-dialog" id="image-detail-modal">
+    <div class="modal-content-wrapper">
+      <button class="modal-close-btn" id="btn-close-detail" aria-label="Đóng Modal">
+        <svg viewBox="0 0 24 24" width="28" height="28" fill="currentColor">
+          <path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/>
+        </svg>
+      </button>
+
+      <div class="modal-media-col">
+        <div class="image-viewer-container" id="image-viewer-container">
+          <img id="detail-modal-img" src="" alt="Detail Image" class="modal-main-img">
+          <div class="viewer-controls">
+            <button class="v-btn" id="btn-zoom-in" title="Phóng to (+)">+</button>
+            <button class="v-btn" id="btn-zoom-out" title="Thu nhỏ (-)">-</button>
+            <button class="v-btn" id="btn-zoom-reset" title="Đặt lại">100%</button>
+          </div>
+        </div>
+        <div class="modal-nav-bar">
+          <button class="modal-nav-btn" id="btn-prev-img">&larr; Ảnh Trước</button>
+          <span class="modal-counter" id="modal-counter">1 / 10</span>
+          <button class="modal-nav-btn" id="btn-next-img">Ảnh Tiếp &rarr;</button>
+        </div>
+      </div>
+
+      <div class="modal-info-col">
+        <span class="modal-period-badge" id="modal-era-badge">Thời Kỳ</span>
+        <h2 class="modal-item-title" id="modal-item-title">Tên Tác Phẩm</h2>
+        
+        <div class="modal-meta-grid">
+          <div class="meta-box">
+            <span class="meta-label">Năm / Niên Đại</span>
+            <span class="meta-value" id="modal-year">1010</span>
+          </div>
+          <div class="meta-box">
+            <span class="meta-label">Phân Loại</span>
+            <span class="meta-value" id="modal-type">Di vật</span>
+          </div>
+          <div class="meta-box">
+            <span class="meta-label">Nhân Vật Tương Quan</span>
+            <span class="meta-value" id="modal-character">Lý Thái Tổ</span>
+          </div>
+          <div class="meta-box">
+            <span class="meta-label">Địa Điểm</span>
+            <span class="meta-value" id="modal-location">Thăng Long</span>
+          </div>
+        </div>
+
+        <div class="modal-section">
+          <h3>Ý Nghĩa Lịch Sử</h3>
+          <p id="modal-significance">Ý nghĩa lịch sử nổi bật...</p>
+        </div>
+
+        <div class="modal-section">
+          <h3>Mô Tả Chi Tiết</h3>
+          <p id="modal-description">Thông tin chi tiết về di vật hoặc tác phẩm nghệ thuật lịch sử...</p>
+        </div>
+
+        <div class="modal-section">
+          <h3>Nguồn Tham Khảo</h3>
+          <p id="modal-source" class="source-link">Bảo tàng Lịch sử Quốc gia Việt Nam</p>
+        </div>
+      </div>
+    </div>
+  </dialog>
+
+  <!-- Full Gallery Filter Modal -->
+  <dialog class="modal-dialog modal-full" id="gallery-modal">
+    <div class="gallery-modal-header">
+      <h2>THƯ VIỆN DI SẢN LỊCH SỬ VIỆT NAM</h2>
+      <button class="modal-close-btn" id="btn-close-gallery">&times;</button>
+    </div>
+    <div class="gallery-filters-bar">
+      <button class="filter-chip active" data-filter="all">Tất Cả</button>
+      <button class="filter-chip" data-filter="Portrait">Chân Dung</button>
+      <button class="filter-chip" data-filter="Battle">Trận Đánh</button>
+      <button class="filter-chip" data-filter="Map">Bản Đồ</button>
+      <button class="filter-chip" data-filter="Architecture">Di Tích</button>
+      <button class="filter-chip" data-filter="Artifact">Bảo Vật</button>
+    </div>
+    <div class="gallery-grid" id="gallery-grid">
+      <!-- Populated via JS -->
+    </div>
+  </dialog>
+
+  <!-- Instant Search Modal -->
+  <dialog class="modal-dialog modal-search" id="search-modal">
+    <div class="search-box-wrapper">
+      <div class="search-input-group">
+        <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
+          <path d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/>
+        </svg>
+        <input type="text" id="search-input" placeholder="Tìm kiếm Triều đại, Nhân vật, Trận đánh, Di tích (VD: Ngô Quyền, Bạch Đằng, Điện Biên Phủ)..." autocomplete="off">
+        <button class="modal-close-btn" id="btn-close-search">&times;</button>
+      </div>
+      <div class="search-results-list" id="search-results-list">
+        <!-- Populated dynamically -->
+      </div>
+    </div>
+  </dialog>
+
+  <!-- JS Dependencies -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollToPlugin.min.js"></script>
+  <script src="https://unpkg.com/lenis@1.1.9/dist/lenis.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
